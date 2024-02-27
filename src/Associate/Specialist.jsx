@@ -10,7 +10,7 @@ const Specialist = () => {
   });
   return (
   <>
-  <div class='bg-history bg-cover bg-center h-72 flex justify-center items-center'  data-aos="fade-right">
+  <div class='bg-history bg-cover bg-center h-72 flex justify-center items-center'  data-aos="fade-down">
   <div class="text-center">
     <h1 class='text-white py-2 text-6xl'>Specialist Groups</h1>
     <p class='text-white text-xl'>Home/Specialist Groups</p>

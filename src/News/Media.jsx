@@ -20,7 +20,7 @@ const Media = () => {
           <p class="text-white text-xl">Home/Gallery</p>
         </div>
       </div>
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 lg:py-9  lg:px-40" data-aos="fade-up">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 lg:py-9  lg:px-40 px-4 py-4" data-aos="fade-up">
       {gallerydata.map((value,index)=>
         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 " key={index}>
           <div>
