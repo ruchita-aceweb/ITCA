@@ -16,7 +16,7 @@ const Event = () => {
     <p class='text-white text-xl'>Home/Events</p>
   </div>
 </div>
-<div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-5 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark sm:px-7.5">
+<div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-9 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark">
 <p class="text-justify">Conferences, seminars, meetings with experts, online courses, hackathons, international student exchange programmes, summer schools abroad and in India and meetings with ITCA leadership are among myriad events that are offered to members.</p>
 <p class="text-justify">These events are organized to facilitate enhancement of the engineering profession by active learning, networking, contributing, and collaborating with peers and engineering practitioners.</p>
 <p class="text-justify">The emphasis of all ITCA events is on highlighting and encouraging interdisciplinary engineering and associated specialties to develop new products, solutions, and services for societal requirements.</p>

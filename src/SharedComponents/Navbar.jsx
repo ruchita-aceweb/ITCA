@@ -3,6 +3,7 @@ import Img from "../Images/logo-white.png";
 import { Link, NavLink } from "react-router-dom";
 import { CgMenuGridO, CgClose } from "react-icons/cg";
 
+
 import { aboutusdata, eventdata, professiondata,associatedata,memberdata,newsdata} from "../Dataadded/Datanav";
 import "../Styles/Navstyle.css";
 
@@ -65,7 +66,7 @@ const Navbar = () => {
                 About Us
                   <div
                     className="absolute left-0 z-50 invisible  py-2 bg-white border-gray-300 rounded shadow-lg top-10 group-hover:visible text-sm"
-                    style={{ width: "25rem" }}
+                    style={{ width: "18rem" }}
                   >
                     {aboutusdata.map((items, index) => (
                       <div className="px-4 py-2 " key={index}>
@@ -87,7 +88,7 @@ const Navbar = () => {
                 Event
                   <div
                     className="absolute left-0 z-50 invisible  py-2 bg-white border-gray-300 rounded shadow-lg top-10 group-hover:visible text-sm"
-                    style={{ width: "25rem" }}
+                    style={{ width: "12rem" }}
                   >
                     {eventdata.map((items, index) => (
                       <div className="px-4 py-2 " key={index}>
@@ -109,7 +110,7 @@ const Navbar = () => {
                 Professional
                   <div
                     className="absolute left-0 z-50 invisible  py-2 bg-white border-gray-300 rounded shadow-lg top-10 group-hover:visible text-sm"
-                    style={{ width: "25rem" }}
+                    style={{ width: "15rem" }}
                   >
                     {professiondata.map((items, index) => (
                       <div className="px-4 py-2 " key={index}>
@@ -131,7 +132,7 @@ const Navbar = () => {
                 Membership
                   <div
                     className="absolute left-0 z-50 invisible  py-2 bg-white border-gray-300 rounded shadow-lg top-10 group-hover:visible text-sm"
-                    style={{ width: "25rem" }}
+                    style={{ width: "14rem" }}
                   >
                     {memberdata.map((items, index) => (
                       <div className="px-4 py-2 " key={index}>
@@ -153,7 +154,7 @@ const Navbar = () => {
                 Associates
                   <div
                     className="absolute left-0 z-50 invisible  py-2 bg-white border-gray-300 rounded shadow-lg top-10 group-hover:visible text-sm"
-                    style={{ width: "25rem" }}
+                    style={{ width: "15rem" }}
                   >
                     {associatedata.map((items, index) => (
                       <div className="px-4 py-2 " key={index}>
@@ -175,7 +176,7 @@ const Navbar = () => {
                 News
                   <div
                     className="absolute left-0 z-50 invisible  py-2 bg-white border-gray-300 rounded shadow-lg top-10 group-hover:visible text-sm"
-                    style={{ width: "25rem" }}
+                    style={{ width: "10rem" }}
                   >
                     {newsdata.map((items, index) => (
                       <div className="px-4 py-2 " key={index}>

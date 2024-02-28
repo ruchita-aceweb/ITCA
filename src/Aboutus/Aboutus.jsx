@@ -21,7 +21,7 @@ const Aboutus = () => {
         </div>
       </div>
 
-      <div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-5 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark sm:px-7.5">
+      <div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-9 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark">
         <h1 className='text-3xl py-4 font-bold'>About ITCA</h1>
         <p className="text-justify">Welcome to ITCA-we Encourage, Educate, Envision and Empower the engineering and technology fraternity across the globe to conceptualize and realize engineering solutions for societal needs.</p>
         <p className="text-justify">ITCA is a society registered in Karnataka.<span className='font-bold'>NITI Aayog Unique ID: KA/2021/0272994.</span> </p>

@@ -51,7 +51,7 @@ const Pastevent = () => {
           <p class='text-white text-xl'>Home/Past Events</p>
         </div>
       </div>
-      <div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-5 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark sm:px-7.5">
+      <div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-9 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark">
         <div>
           <h1 className='text-3xl font-bold py-4'>ITC-2021</h1>
           <p class="text-justify">ITC-2021, the 9th edition of Indian Technology Congress, was unique in that it facilitated exploring space technologies for sustainable development, sustainable design paradigms for student-built satellites and nanosatellites. Space Technology Gurus, Subject Matter Experts and 'Techpreneurs' shared their vision on contemporary technologies and how these are likely to influence our way of life. The special focus on this year’s congress was on “Satellites for Everyone and Space for Everyone and was organized in collaboration with Chandigarh University as an India – International Online event.</p>

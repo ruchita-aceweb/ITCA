@@ -18,7 +18,7 @@ const Instituational = () => {
     <p class='text-white text-xl'>Home/Institutional Memberships</p>
   </div>
 </div>
-<div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-5 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark sm:px-7.5">
+<div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-9 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark">
 <h1 className='text-3xl py-4 font-bold'>Institutional</h1>
 <p class="text-justify">The categories of Institutional memberships are:-</p>
 <div className="flex flex-wrap justify-center px-10  leading-8">

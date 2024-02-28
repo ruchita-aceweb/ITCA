@@ -16,7 +16,7 @@ const Associate = () => {
     <p class='text-white text-xl'>Home/Associated</p>
   </div>
 </div>
-<div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-5 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark sm:px-7.5">
+<div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-9 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark">
 <div className="flex flex-wrap justify-center   leading-8">
 
 <div className="w-full lg:w-1/3 md:w-1/2 sm:w-full  ">

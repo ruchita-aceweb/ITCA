@@ -18,7 +18,7 @@ const Startup = () => {
      <p class='text-white text-xl'>Home/Start Up Incubation</p>
    </div>
  </div>
- <div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-5 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark sm:px-7.5">
+ <div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-9 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark">
 <p class="text-justify">ITCA has set up an incubation hub and facilitates start-up organizations and entrepreneurs to access financing options based on their requirements. Start-ups and entrepreneurs can work with ITCA's Fellows and Members to sharpen and refine their business ideas and enhance success rates.</p>
 <p class="text-justify">ITCA has incubated start-ups over the last 3 years and help these start-ups to become competitive and successful enterprises.</p>
 <p class="text-justify font-semibold">Details of the incubated and mentored organizations are given below:</p>

@@ -17,7 +17,7 @@ const History = () => {
     <p class='text-white text-xl'>Home/History</p>
   </div>
 </div>
-<div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-5 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark sm:px-7.5">
+<div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-9 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark">
 
 <div className="flex flex-wrap justify-center    leading-8">
 
@@ -25,7 +25,7 @@ const History = () => {
   <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full  ">
     <img src={history} alt="satellite" className="mx-auto"  data-aos="fade-right" />
   </div>
-  <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full lg:pt-16 ">
+  <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full lg:pt-4 ">
   <h1 class="text-justify text-xl p-4 font-bold">ITC over the last 18 years has attained international prominence as a unique platform fostering Industry-Academia-Research Labs-Policy Makers’ collaboration with the objective of capacity-building for global technological progress.</h1>
   <p  class="text-justify px-4">On a parallel track to nurture an inclusive environment in India to pursue NewSpace opportunities, ITCA has initiated amongst the educational institutions an ambitious “75 Students’ Satellites Mission 2022” to commemorate the “75 Years of Indian Independence” (1947-2022) by launching 75 student-built satellites into orbit in conjunction with national and international tech-space organizations. Its Space team has structured this mission with leading educators and faculty to strengthen India’s focus on science-based approach and experience-based learning and build a culture of innovation in the country.</p>
 

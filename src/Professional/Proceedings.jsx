@@ -16,8 +16,8 @@ const Proceedings = () => {
      <p class='text-white text-xl'>Home/Proceedings</p>
    </div>
  </div>
- <div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-5 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark sm:px-7.5">
-  <div className='p-10'>
+ <div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-9 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark">
+  <div className=''>
  <h1 className='text-xl py-4 font-bold'>Compilation of abstracts of peer-reviewed technical papers presented during various editions of ITC.</h1>
  <img src={imgproceeding} alt="satellite" className="mx-auto flex justify-center" />
  <p  class="text-justify">The collection spans multiple years and includes abstracts of peer-reviewed papers on the themes of the Conferences across multiple disciplines.</p>

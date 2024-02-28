@@ -16,8 +16,8 @@ const Professionaldev = () => {
   </div>
 </div>
 
-<div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-5 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark sm:px-7.5">
-  <div className='p-10'>
+<div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-9 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark">
+  <div className=''>
   <p className='text-justify'>Our focus is on continued education and fostering the culture of lifelong learning. ITCA's teams are continuously endeavouring to curate content relevant to the industry needs and structure summer schools both in India and abroad.</p>
   <div className="flex flex-wrap justify-center   leading-8">
 

@@ -16,7 +16,7 @@ const Expertise = () => {
     <p class='text-white text-xl'>Home/Expertise</p>
   </div>
 </div>
-<div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-5 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark sm:px-7.5">
+<div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-9 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark">
 <h1 className='text-3xl py-4 font-bold'>Building the World of Tomorrow with Today's Engineering </h1>
 <p class="text-justify">We are pushing the boundaries of engineering and technology, not just for today, but for the future, in collaboration with our Fellows, Members, and Partners. To contribute to societal growth, we are building skills and competencies and reforming the workforce. Our members influence public policy and drive innovation. By doing all these, ITCA drives engineering to shape the world of tomorrow.</p>
 <div className='flex flex-wrap justify-center p-4'>
