@@ -1,5 +1,5 @@
 import React from 'react';
-import imgment from "../Images/ment2.jpg";
+import imgment from "../Images/montionr.jpg";
 import "../Styles/font.css";
 import 'aos/dist/aos.css';
 import AOS from 'aos';

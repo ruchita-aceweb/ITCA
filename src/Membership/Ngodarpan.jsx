@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Styles/font.css"
-import imgngo from "../Images/Logos-06.png";
+import imgngo from "../Images/nitiayoga.jpg";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 

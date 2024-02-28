@@ -1,6 +1,6 @@
 import React from 'react'
 import "../Styles/font.css";
-import start from "../Images/ment1.jpg"
+import start from "../Images/startup.jpg";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 
@@ -26,14 +26,13 @@ const Startup = () => {
   <div className=' w-full lg:w-1/3 md:w-1/2 sm:w-full p-4 '>
     <h1 className='text-2xl'>TSC Technologies</h1>
     <p className='text-justify'>TSC Technologies is a space technologies start-up mentored and incubated by ITCA in India. It provides turnkey project support with respect to small satellites globally to meet the needs and requirements of its clients. Delivered through a single engagement, multi-source model, TSCTech Team works closely in liaison with its clients to provide premium service that significantly reduces costs.</p>
-  </div>
-  <div className='w-full lg:w-1/3 md:w-1/2 sm:w-full '>
-    <img src={start} alt='satelliate'/>
-  </div>
-  <div className=' w-full lg:w-1/3 md:w-1/2 sm:w-full p-4'>
-    <h1 className='text-2xl'>TMISAT, ISRAEL</h1>
+    <h1 className='text-2xl lg:py-4'>TMISAT, ISRAEL</h1>
     <p className='text-justify'>TMISAT is an Israeli New Space company founded by committed professionals and entrepreneurs interested in exploring business prospects in the space sector. TMISAT has the distinct advantage of being present in all aspects, including designing and developing small satellites for the ITCA's ambitious 75 Students’ Satellites Mission 2022.</p>
   </div>
+  <div className='w-full lg:w-1/2 md:w-1/2 sm:w-full '>
+    <img src={start} alt='satelliate'/>
+  </div>
+ 
 </div>
 </div>
    </>

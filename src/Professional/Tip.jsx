@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Styles/font.css";
-import imgtip from "../Images/member.jpg";
+import imgtip from "../Images/tip.png";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 

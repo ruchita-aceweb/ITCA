@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Styles/font.css";
-import imgtrain from "../Images/member.jpg";
+import imgtrain from "../Images/training.png";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 

@@ -6,6 +6,12 @@ import imgsat1 from "../Images/pro.jpg";
 
 import imgment1 from "../Images/ment2.jpg";
 import imgment2 from "../Images/sat3.jpg";
+import imgment3 from "../Images/new2.jpg";
+import imgment4 from "../Images/new4.jpg";
+import imgment5 from "../Images/new6.jpg";
+import imgment6 from "../Images/new3.jpg";
+import imgment7 from "../Images/new7.jpg";
+import imgment8 from "../Images/new8.jpg";
 import img1 from "../Images/Logos-01.png";
 import img2 from "../Images/Logos-02.png";
 import img3 from "../Images/Logos-03.png";
@@ -158,14 +164,14 @@ const Home = () => {
     </div>
   </div>
   <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full ">
-    <img src={imgment2} alt="satellite" className="mx-auto" data-aos="fade-left" onClick={() => handleImageClick(imgment2)}/>
+    <img src={imgment4} alt="satellite"  data-aos="fade-left" onClick={() => handleImageClick(imgment2)}/>
   </div>
   </div>
 
 
   <div className="flex flex-wrap justify-center bg-black text-white leading-8">
 <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full ">
-    <img src={imgment1} alt="satellite" className="mx-auto" data-aos="fade-right" onClick={() => handleImageClick(imgment1)}/>
+    <img src={imgment3} alt="satellite" className="mx-auto" data-aos="fade-right" onClick={() => handleImageClick(imgment1)}/>
   </div>
 <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full  lg:pt-16">
     <h1 className="text-center p-4 text-2xl  font-bold">Startup Incubation</h1>
@@ -209,7 +215,7 @@ const Home = () => {
   </div>
   <div className="flex flex-wrap justify-center bg-black text-white leading-8">
 <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full ">
-    <img src={imgment1} alt="satellite" className="mx-auto" data-aos="fade-right" onClick={() => handleImageClick(imgment1)}/>
+    <img src={imgment5} alt="satellite" className="mx-auto" data-aos="fade-right" onClick={() => handleImageClick(imgment1)}/>
   </div>
 <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full  lg:pt-16">
     <h1 className="text-center p-4 text-2xl  font-bold">Boards and Committees</h1>
@@ -232,12 +238,12 @@ const Home = () => {
     </div>
   </div>
   <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full ">
-    <img src={imgment2} alt="satellite" className="mx-auto" data-aos="fade-left" onClick={() => handleImageClick(imgment2)}/>
+    <img src={imgment6} alt="satellite" className="mx-auto" data-aos="fade-left" onClick={() => handleImageClick(imgment2)}/>
   </div>
   </div>
   <div className="flex flex-wrap justify-center bg-black text-white leading-8">
 <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full ">
-    <img src={imgment1} alt="satellite" className="mx-auto" data-aos="fade-right" onClick={() => handleImageClick(imgment1)}/>
+    <img src={imgment7} alt="satellite" className="mx-auto" data-aos="fade-right" onClick={() => handleImageClick(imgment1)}/>
   </div>
 <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full  lg:pt-16">
     <h1 className="text-center p-4 text-2xl  font-bold">History</h1>
@@ -260,7 +266,7 @@ const Home = () => {
     </div>
   </div>
   <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full ">
-    <img src={imgment2} alt="satellite" className="mx-auto" data-aos="fade-left" onClick={() => handleImageClick(imgment2)}/>
+    <img src={imgment8} alt="satellite" className="mx-auto" data-aos="fade-left" onClick={() => handleImageClick(imgment2)}/>
   </div>
   </div>
 

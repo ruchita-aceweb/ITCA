@@ -1,6 +1,6 @@
 import React from 'react'
 import "../Styles/font.css";
-import imgassociate from "../Images/Strategy.jpg";
+import imgassociate from "../Images/Associate1.jpg";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Styles/font.css";
-import imgspecialist from "../Images/Membership.jpg";
+import imgspecialist from "../Images/specialteam.png";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 
@@ -19,14 +19,14 @@ const Specialist = () => {
 <div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-9 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark">
 <div className="flex flex-wrap justify-center   leading-8">
 
-<div className="w-full lg:w-1/3 md:w-1/2 sm:w-full  ">
+<div className="w-full lg:w-1/2 md:w-1/2 sm:w-full  ">
   
     <p  class="text-justify">Specialist groups are a collaborative community of professionals working in one area. Participation in a specialist group helps deepen one's involvement and showcases skills and expertise level. Currenly, ITCA has an active specialist group focued on SpaceTech.</p>
     <p class="text-justify"> We are in the process of adding multiple specialist groups.</p>
     
     
   </div>
-  <div className="w-full lg:w-2/3 md:w-1/2 sm:w-full px-4">
+  <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full px-4">
     <img src={imgspecialist} alt="satellite" className="mx-auto"  data-aos="fade-left" />
   </div>
   </div>

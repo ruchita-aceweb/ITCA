@@ -2,7 +2,8 @@ import React from 'react';
 import "../Styles/font.css";
 import wrcr from "../Images/partnerwrcr.png";
 import unisec from "../Images/unisecindia.jpg";
-import  engage from "../Images/enage.jpg";
+import  engage from "../Images/enage1.jpg";
+
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 
@@ -46,13 +47,14 @@ const Partnership = () => {
 
   <div className='flex flex-wrap justify-center    leading-8'>
   <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full  ">
-    <h1 className='text-2xl py-6 font-bold'>ITCA’s Engagement with Israeli Universities</h1>
+    <h1 className='text-2xl font-bold pb-2'>ITCA’s Engagement with Israeli Universities</h1>
 <p  class="text-justify px-4">ITCA has been at the forefront of building partnerships with Israeli Universities which could be utilized by Indian Institutions and Universities. Leadership of Indian Universities and Institutions expressed to ITCA their keenness and intent to introduce programmes that could bridge the gap between the curriculum and the expectations of industry and were proponents of Practice-based Learning methodology</p>
 
 <p  class="text-justify px-4">Reaching students earlier in their educational development cycle is critical in developing a workforce to remain competitive in the global marketplace. It is essential that teachers in high schools must engage students in Science, Technology, Engineering and Mathematics (STEM) curriculum earlier to generate interest, develop skills and provide the educational foundation for students to build upon.</p>
 </div>
 <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full  ">
   <img src={engage} alt="satellite" className="mx-auto" data-aos="fade-left"/>
+
 </div>
   </div>
 </div>

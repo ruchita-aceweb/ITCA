@@ -1,5 +1,5 @@
 import React from 'react';
-import imgboard from "../Images/enage.jpg";
+import imgboard from "../Images/board.jpg";
 import "../Styles/font.css";
 import 'aos/dist/aos.css';
 import AOS from 'aos';

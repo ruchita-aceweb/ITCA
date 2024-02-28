@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Styles/font.css";
-import event from "../Images/sat3.jpg";
+import event from "../Images/new10.png";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 
