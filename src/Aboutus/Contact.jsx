@@ -9,7 +9,7 @@ const Contact = () => {
   });
   return (
    <>
-     <div class='bg-aboutus bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-up">
+     <div class='bg-contact bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-up">
   <div class="text-center">
     <h1 class='text-white py-2 text-6xl'>Contact Us</h1>
     <p class='text-white text-xl'>Home/Contact Us</p>

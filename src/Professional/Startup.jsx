@@ -11,7 +11,7 @@ const Startup = () => {
   });
   return (
    <>
-   <div class='bg-aboutus bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down">
+   <div class='bg-dev bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down">
    <div class="text-center">
      <h1 class='text-white py-2 text-6xl'>Start Up Incubation</h1>
     

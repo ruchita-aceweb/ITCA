@@ -39,6 +39,13 @@ export const theme = {
       'aboutus': "url('/src/Images/Banner/aboutusbanner.jpg')",
       'history':"url('/src/Images/Banner/historybanner.jpg')",
       'partnership':"url('/src/Images/Banner/partnershipbanner.jpg')",
+   
+      'contact':"url('/src/Images/Banner/contactbanner.jpg')",
+      'strategy':"url('/src/Images/Banner/Strategy.jpg')",
+      'goal':"url('/src/Images/Banner/goalbanner.jpg')",
+      'event':"url('/src/Images/Banner/webinarbanner.jpg')",
+      'dev':"url('/src/Images/Banner/devbanner.jpg')",
+    
     }
   },
 };

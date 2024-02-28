@@ -11,7 +11,7 @@ const Tip = () => {
   });
   return (
   <>
-   <div class='bg-aboutus bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down">
+   <div class='bg-dev bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down">
    <div class="text-center">
      <h1 class='text-white py-2 lg:text-6xl text-3xl'>Technology Innovation and Productization</h1>
      <h1 class='text-white py-2 lg:text-6xl text-3xl'>(TIP)</h1>

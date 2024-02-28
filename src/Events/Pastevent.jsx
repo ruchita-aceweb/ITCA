@@ -45,7 +45,7 @@ const Pastevent = () => {
 
   return (
     <>
-      <div class='bg-aboutus bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down">
+      <div class='bg-event bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down">
         <div class="text-center">
           <h1 class='text-white py-2 text-6xl'>Past Events</h1>
           <p class='text-white text-xl'>Home/Past Events</p>
