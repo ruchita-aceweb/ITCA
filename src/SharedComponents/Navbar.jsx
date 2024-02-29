@@ -30,7 +30,7 @@ const Navbar = () => {
   return (
     <div className={`navbar ${isSticky ? "sticky" : ""}`}>
       <nav className="w-full shadow-md bg-black">
-      <div className="items-center lg:justify-between max-w-full md:flex px-10 lg:px-24">
+      <div className="items-center lg:justify-between max-w-full md:flex  lg:px-24">
           <div className="flex items-center justify-between py-1 md:py-5 md:block">
             <Link to="/home">
               <h2 className="text-2xl font-bold text-white">
