@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from "react";
 import imgabout1 from "../Images/About ITCA.png";
 import "../Styles/font.css";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 import { IoClose } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 const Aboutus = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -11,6 +12,9 @@ const Aboutus = () => {
   AOS.init({
     duration: 1200,
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>
@@ -20,6 +24,18 @@ const Aboutus = () => {
           <p className='text-white text-xl'>Home/Aboutus</p>
         </div>
       </div>
+ 
+      <div class=" lg:flex justify-between gap-4 text-white text-xl " data-aos="fade-up">
+  <div class="w-full  lg:w-1/4 p-6 bg-about text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2"> <Link to='/history'><h1>History  </h1></Link></div>
+  <div class="w-full  lg:w-1/4 p-6 bg-about text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2">  <Link to='/partnership'><h1>Partnerships</h1></Link></div>
+   <div class="w-full  lg:w-1/4 p-6 bg-about text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2">  <Link to='/governance'> <h1>Governance</h1></Link></div>
+   <div class="w-full  lg:w-1/4 p-6 bg-about text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2">   <Link to='/contact'><h1>Contact Us</h1></Link></div>
+   <div class="w-full  lg:w-1/4 p-6 bg-about text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2">  <Link to='/strategy'> <h1>Strategy</h1></Link></div>
+   <div class="w-full  lg:w-1/4 p-6 bg-about text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2">  <Link to='/sustainable'> <h1>Sustainable Development Goals</h1></Link></div>
+ 
+
+</div>
+
 
       <div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-9 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark">
         <h1 className='text-3xl py-4 font-bold'>About ITCA</h1>

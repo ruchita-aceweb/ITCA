@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React,{useState,useEffect} from 'react';
 import "../Styles/font.css";
 import gallerydata from "../Dataadded/Galleryimage";
 import 'aos/dist/aos.css';
@@ -12,6 +12,9 @@ const Media = () => {
   const handleImageClick = (image) => {
     setSelectedImage(image);
   };
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
    <>
    <div class="bg-aboutus bg-cover bg-center h-72 flex justify-center items-center" data-aos="fade-down">

@@ -9,7 +9,7 @@ import {
   FaMailBulk,
 } from "react-icons/fa";
 
-import { aboutusdata } from "../Dataadded/Datanav";
+import { footerusefuldata } from "../Dataadded/Datanav";
 
 const Footer = () => {
   
@@ -75,9 +75,9 @@ const Footer = () => {
 
         {/* Practice Area */}
         <div className="w-full px-4 mb-4 md:w-1/4">
-          <SectionHeader  onClick={handleKnowMoreClick} text="Practice Area" />
+          <SectionHeader  onClick={handleKnowMoreClick} text="Useful Links" />
           <ul className="footer-link">
-            {aboutusdata.map((item, index) => (
+            {footerusefuldata.map((item, index) => (
               <FooterLink
              
                 key={index}
