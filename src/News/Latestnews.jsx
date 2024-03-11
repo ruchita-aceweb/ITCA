@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React,{useState,useEffect} from "react";
 import "../Styles/font.css";
 import Latestnewsdata from "../Dataadded/LatestNewsdata";
 import 'aos/dist/aos.css';
@@ -12,6 +12,9 @@ const Latestnews = () => {
   const handleImageClick = (image) => {
     setSelectedImage(image);
   };
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>

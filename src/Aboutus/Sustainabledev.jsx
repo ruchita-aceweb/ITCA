@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import "../Styles/font.css";
 import goal from "../Images/goals.jpg";
 import 'aos/dist/aos.css';
@@ -8,6 +8,9 @@ const Sustainabledev = () => {
   AOS.init({
     duration: 1200,
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
   <>
     <div class='bg-goal bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down">

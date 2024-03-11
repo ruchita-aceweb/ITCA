@@ -28,14 +28,16 @@ export const theme = {
       'newblue':'#424769',
       'skyblue':'#40A2D8',
       'back':'#164B60',
-      'back1':'#1B6B93'
+      'back1':'#1B6B93',
+      'about':'#102058',
+      'home':'#011621',
 
     },
     textColor:{
       "custom":"#d0a15e",
     },
     backgroundImage: {
-      'satellite_banner': "url('/src/Images/BXNA.gif')",
+      'satellite_banner': "url('/src/Images/Banner/homebanner.jpg')",
       'aboutus': "url('/src/Images/Banner/aboutusbanner.jpg')",
       'history':"url('/src/Images/Banner/historybanner.jpg')",
       'partnership':"url('/src/Images/Banner/partnershipbanner.jpg')",

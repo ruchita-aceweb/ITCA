@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import "../Styles/font.css";
 import inphoto1 from "../Images/pasrevent/Inphoto1.jpg";
 import inphoto2 from "../Images/pasrevent/Inphoto2.jpg";
@@ -42,6 +42,9 @@ const Pastevent = () => {
   const handleImageClick = (image) => {
     setSelectedImage(image);
   };
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>

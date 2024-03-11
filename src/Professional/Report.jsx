@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import "../Styles/font.css";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
@@ -7,6 +7,9 @@ const Report = () => {
   AOS.init({
     duration: 1200,
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
    <>
      <div class='bg-dev bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down">

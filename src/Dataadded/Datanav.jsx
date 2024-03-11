@@ -118,3 +118,26 @@ export const newsdata =[
         link:'/media'
     },
 ]
+export const footerusefuldata =[
+   
+    {
+        title:'75satellites.org',
+        link:'/'
+    },
+    {
+        title:'TSC TECH',
+        link:'/'
+    },
+    {
+        title:'WCRC',
+        link:'/'
+    },
+    {
+        title:'UNISEC-INDIA',
+        link:'/'
+    },
+    {
+        title:'ITCA PUBLICATIONS',
+        link:'/'
+    },
+]

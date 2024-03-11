@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import "../Styles/font.css";
 import wrcr from "../Images/partnerwrcr.png";
 import unisec from "../Images/unisecindia.jpg";
@@ -11,6 +11,9 @@ const Partnership = () => {
   AOS.init({
     duration: 1200,
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
   <>
     <div class='bg-partnership bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down">

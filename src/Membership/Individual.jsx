@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import "../Styles/font.css";
 import imgindividual from "../Images/Logos-04.png";
 import imgindividual1 from "../Images/Logos-01.png";
@@ -9,6 +9,9 @@ const Individual = () => {
   AOS.init({
     duration: 1200,
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
   <>
     <div class='bg-aboutus bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down">

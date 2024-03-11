@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import "../Styles/font.css";
 import imgspecialist from "../Images/specialteam.png";
 import 'aos/dist/aos.css';
@@ -8,6 +8,9 @@ const Specialist = () => {
   AOS.init({
     duration: 1200,
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
   <>
   <div class='bg-history bg-cover bg-center h-72 flex justify-center items-center'  data-aos="fade-down">

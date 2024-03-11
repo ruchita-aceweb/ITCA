@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import "../Styles/font.css";
 import history from "../Images/History1.jpg";
 import history1 from "../Images/History2.jpg";
@@ -9,6 +9,9 @@ const History = () => {
   AOS.init({
     duration: 1200,
   });
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
    <div class='bg-history bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down">

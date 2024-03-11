@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect } from "react";
 import "../Styles/font.css";
 import experits from "../Images/expertisess.jpg";
 import 'aos/dist/aos.css';
@@ -8,6 +8,9 @@ const Expertise = () => {
   AOS.init({
     duration: 1200,
   });
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top of the page when component mounts
+  }, []);
   return (
  <>
    <div class='bg-aboutus bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down">
