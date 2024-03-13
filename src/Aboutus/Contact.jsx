@@ -14,12 +14,12 @@ const Contact = () => {
    <>
      <div class='bg-contact bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-up">
   <div class="text-center">
-    <h1 class='text-white py-2 text-6xl'>Contact Us</h1>
-    <p class='text-white text-xl'>Home/Contact Us</p>
+    <h1 class='text-white py-2 text-6xl'>Future Directions</h1>
+    <p class='text-white text-xl'>Home/Future Directions</p>
   </div>
 </div>
 
-<div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-5 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark sm:px-7.5">
+{/* <div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-5 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark sm:px-7.5">
 <div className="flex flex-wrap justify-center    leading-8 lg:p-16">
 <div className="w-full lg:w-1/3 md:w-1/2 sm:w-full  ">
   <div className='mb-4'>
@@ -86,7 +86,9 @@ const Contact = () => {
 
   </div>
 </div>
-</div>
+</div> */}
+<h1 className='text-4xl text-center p-6'>Coming Soon </h1>
+
    </>
   )
 }

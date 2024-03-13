@@ -23,7 +23,7 @@ const Instituational = () => {
 </div>
 <div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-9 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark">
 <h1 className='text-3xl py-4 font-bold'>Institutional</h1>
-<p class="text-justify">The categories of Institutional memberships are:-</p>
+<p class="text-justify">The Institutional Members category welcomes associations, public, and private institutions engaged in fields aligned with the objectives of the ITCA. This includes academia, universities, research institutes, industrial entities, and professional organizations, both domestically and internationally, with a focused interest in technological advancements.</p>
 <div className="flex flex-wrap justify-center px-10  leading-8">
 
 <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full p-4 ">
@@ -41,24 +41,13 @@ const Instituational = () => {
     <img src={imginstitute} alt="satellite" className="mx-auto"  data-aos="fade-left" />
   </div>
   </div>
+ 
+
+
   <div className="flex flex-wrap justify-center px-10  leading-8">
   <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full lg:pt-6 ">
-    <img src={imginstitute1} alt="satellite" className="mx-auto"  data-aos="fade-right" />
+    <img src={imginstitute1} alt="satellite" className="mx-auto"  data-aos="fade-left"/>
   </div>
-
-<div className="w-full lg:w-1/2 md:w-1/2 sm:w-full p-4 ">
-
-    <h1 className='text-lg font-bold'>INSTITUTIONAL MEMBERS</h1>
-    <p class="text-justify">Institutional Membership is open to all industries, Corporate, Universities, Colleges, Government departments and R&D Organizations interested in promoting the Aims and Objectives of the Association. Each Academic Institutional Member may nominate two persons who can enjoy all the privileges of Members of the Association. Membership for others not falling under the above-mentioned categories may be considered subject to the approval of the Council on a case-to-case basis.</p>
-    <p class="text-justify">An Institution paying a subscription as stipulated by the Association from time to time shall be eligible to nominate two persons as its representative to attend the Annual Session of the Technology Congress. Donors and Institutional Member shall be eligible to receive, free of cost, a copy of the complete set of Proceedings of the Annual Congress and also a copy each of the Association’s publications.</p>
-   
-  </div>
-  
-  </div>
-
-
-  <div className="flex flex-wrap justify-center px-10  leading-8">
-
 <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full p-4 ">
 <h1 className='text-lg font-bold py-2'>RIGHTS, OBLIGATION AND PRIVILEGES OF MEMBERS:</h1>
 <p class="text-justify">Subject to the Provisions and Restrictions contained in the Rules and Regulations:</p>
@@ -74,15 +63,11 @@ const Instituational = () => {
     
     
   </div>
-  <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full lg:pt-6 ">
-    <img src={imginstitute} alt="satellite" className="mx-auto"  data-aos="fade-left"/>
-  </div>
+ 
   </div>
 
   <div className="flex flex-wrap justify-center px-10  leading-8">
-  <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full lg:pt-6 ">
-    <img src={imginstitute2} alt="satellite" className="mx-auto"  data-aos="fade-right"/>
-  </div>
+
 <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full p-4 ">
 <h1 className='text-lg font-bold py-2'>Voting Rights:</h1>
 
@@ -94,6 +79,9 @@ const Instituational = () => {
    
     
     
+  </div>
+  <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full lg:pt-6 ">
+    <img src={imginstitute2} alt="satellite" className="mx-auto"  data-aos="fade-right"/>
   </div>
  
   </div>

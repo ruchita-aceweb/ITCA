@@ -15,6 +15,11 @@ const Aboutus = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+  const [activeIndex, setActiveIndex] = useState(null);
+
+  const handleClick = (index) => {
+    setActiveIndex(activeIndex === index ? null : index);
+  };
 
   return (
     <>
@@ -24,14 +29,17 @@ const Aboutus = () => {
           <p className='text-white text-xl'>Home/Aboutus</p>
         </div>
       </div>
- 
+  
       <div class=" lg:flex justify-between gap-4 text-white text-xl " data-aos="fade-up">
-  <div class="w-full lg:w-1/4 p-4 bg-about text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2"> <Link to='/history'><h1 className=" lg:mt-6 text-2xl">History  </h1></Link></div>
+      <div class="w-full lg:w-1/4 p-4 bg-about text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2"> <Link to='/vision'><h1 className=" lg:mt-6 text-2xl">Vision </h1></Link></div>
+      <div class="w-full lg:w-1/4 p-4 bg-about text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2"> <Link to='/mission'><h1 className=" lg:mt-6 text-2xl">Mission </h1></Link></div>
+      <div class="w-full  lg:w-1/4 p-4 bg-about text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2">  <Link to='/governance'> <h1 className=" lg:mt-6 text-2xl">Governance</h1></Link></div>
+  <div class="w-full lg:w-1/4 p-4 bg-about text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2"> <Link to='/heritage'><h1 className=" lg:mt-6 text-2xl">Heritage  </h1></Link></div>
   <div class="w-full  lg:w-1/4 p-4 bg-about text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2">  <Link to='/partnership'><h1 className=" lg:mt-6 text-2xl">Partnerships</h1></Link></div>
-   <div class="w-full  lg:w-1/4 p-4 bg-about text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2">  <Link to='/governance'> <h1 className=" lg:mt-6 text-2xl">Governance</h1></Link></div>
-   <div class="w-full  lg:w-1/4 p-4 bg-about text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2">   <Link to='/contact'><h1 className=" lg:mt-6 text-2xl">Contact Us</h1></Link></div>
-   <div class="w-full  lg:w-1/4 p-4 bg-about text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2">  <Link to='/strategy'> <h1 className=" lg:mt-6 text-2xl">Strategy</h1></Link></div>
-   <div class="w-full  lg:w-1/4 p-4 bg-about text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2">  <Link to='/sustainable'> <h1 className="  text-2xl">Sustainable Development Goals</h1></Link></div>
+ 
+   <div class="w-full  lg:w-1/4 p-4 bg-about text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2">   <Link to='/contact'><h1 className=" lg:mt-6 text-2xl">Future Directions</h1></Link></div>
+   <div class="w-full  lg:w-1/4 p-4 bg-about text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2">  <Link to='/strategy'> <h1 className=" lg:mt-6 text-2xl">Affiliations</h1></Link></div>
+   <div class="w-full  lg:w-1/4 p-4 bg-about text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2">  <Link to='/ngo'> <h1 className="  text-2xl lg:mt-6">NGO Darpon </h1></Link></div>
  
 
 </div>
@@ -76,6 +84,9 @@ const Aboutus = () => {
 </div>
 
       )}
+    
+
+
     </>
   );
 };

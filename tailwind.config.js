@@ -31,6 +31,8 @@ export const theme = {
       'back1':'#1B6B93',
       'about':'#102058',
       'home':'#011621',
+      'events':'#004990',
+      'agri':'#7a927d',
 
     },
     textColor:{
