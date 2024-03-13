@@ -91,7 +91,7 @@ const Home = () => {
     <h1 className="text-center lg:px-6 py-2 text-2xl font-bold">Building the World of Tomorrow with Today's Engineering</h1>
     <p className="lg:text-center  text-justify lg:px-6 px-4 py-4">We are pushing the boundaries of engineering and technology, not just for today, but for the future, in collaboration with our Fellows, Members, and Partners. To contribute to societal growth, we are building skills and competencies and reforming the workforce. Our members influence public policy and drive innovation. By doing all these, ITCA drives engineering to shape the world of tomorrow</p>
     <div className="flex justify-center mt-2 bg-green mb-2">
-    <Link to='/experistes'>
+    <Link to='/advisor'>
    <button className="bg-skyblue py-2 px-4 rounded-lg ">Learn More</button>
 </Link>
     </div>
@@ -197,7 +197,7 @@ const Home = () => {
     <h1 className="text-center p-4 text-2xl  font-bold">Startup Incubation</h1>
     <p className="lg:text-center  text-justify lg:px-10 px-4">ITCA has set up an incubation hub and facilitates start-up organizations and entrepreneurs to access financing options based on their requirements. Start-ups and entrepreneurs can work with ITCA's Fellows and Members to sharpen and refine their business ideas and enhance success rates.</p>
     <div className="flex justify-center mt-2 bg-green mb-2">
-    <Link to='/startup'>
+    <Link to='/incubation'>
    <button className="bg-skyblue py-2 px-4 rounded-lg">Learn More</button>
    </Link>
     </div>
@@ -279,7 +279,7 @@ const Home = () => {
     <h1 className="text-center p-4 text-2xl  font-bold">History</h1>
     <p className="lg:text-center  text-justify p-4 ">TC over the last 18 years has attained international prominence as a unique platform fostering Industry-Academia-Research Labs-Policy Makers’ collaboration with the objective of capacity-building for global technological progress.</p>
     <div className="flex justify-center mt-2 bg-green mb-2">
-    <Link to='/history'>
+    <Link to='/heritage'>
    <button className="bg-skyblue py-2 px-4 rounded-lg ">Learn More</button>
    </Link>
     </div>

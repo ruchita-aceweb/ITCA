@@ -4,6 +4,8 @@ import event from "../Images/new10.png";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 
+import { Link } from "react-router-dom";
+
 const Event = () => {
   AOS.init({
     duration: 1200,
@@ -19,6 +21,12 @@ const Event = () => {
     <p class='text-white text-xl'>Home/Events</p>
   </div>
 </div>
+<div class=" lg:flex justify-between gap-4 text-white text-xl " data-aos="fade-up">
+      <div class="w-full lg:w-1/4 p-4 bg-events text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2"> <Link to='/congress'><h1 className=" text-2xl">Congress </h1></Link></div>
+      <div class="w-full lg:w-1/4 p-4 bg-events text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2"> <Link to='/webinar'><h1 className=" text-2xl">Webinars </h1></Link></div>
+      <div class="w-full  lg:w-1/4 p-4 bg-events text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2">  <Link to='/masterclass'> <h1 className=" text-2xl">Masterclass</h1></Link></div>
+      <div class="w-full  lg:w-1/4 p-4 bg-events text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2">  <Link to='/pastevent'> <h1 className=" text-2xl">Past Event</h1></Link></div>
+      </div>
 <div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-9 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark">
 <p class="text-justify">Conferences, seminars, meetings with experts, online courses, hackathons, international student exchange programmes, summer schools abroad and in India and meetings with ITCA leadership are among myriad events that are offered to members.</p>
 <p class="text-justify">These events are organized to facilitate enhancement of the engineering profession by active learning, networking, contributing, and collaborating with peers and engineering practitioners.</p>

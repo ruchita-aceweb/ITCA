@@ -5,30 +5,42 @@ export const aboutusdata =[
     },
    
     {
-        title:'History',
-        link:'/history'
+        title:'Vision',
+        link:'/vision'
     },
     {
-        title:'Parnterships',
-        link:'/partnership'
+        title:'Mission',
+        link:'/mission'
     },
     {
         title:'Governance',
         link:'/governance'
     },
     {
-        title:'Contact',
+        title:'Heritage',
+        link:'/heritage'
+    },
+    {
+        title:'Parnterships',
+        link:'/partnership'
+    },
+    
+    {
+        title:'Future Directions',
         link:'/contact'
     },
     {
-        title:'Strategy',
+        title:'Affiliations',
         link:'/strategy'
     },
     {
-        title:'Sustainable Development Goals',
-        link:'/sustainable'
-    },
+        title:'Ngo Darpan',
+        link:'/ngo'
+    }
+   
 ]
+
+
 
 
 export const eventdata = [
@@ -36,16 +48,26 @@ export const eventdata = [
         title:'Our Events',
         link:'/event'
     },
-    
+  
+    {
+        title:'Congress',
+        link:'/congress'
+    },
     {
         title:'Webinar',
         link:'/webinar'
+    },
+    {
+        title:'Masterclass',
+        link:'/masterclass'
     },
     {
         title:'Past Event',
         link:'/pastevent'
     }
 ]
+
+
 export const professiondata = [
     {
         title:'Professional Development',
@@ -53,43 +75,62 @@ export const professiondata = [
     },
    
     {
-        title:'Proceedings',
-        link:'/proceedings'
+        title:'Incubation',
+        link:'/incubation'
     },
     {
-        title:'Tip',
-        link:'/tip'
+        title:'Educator',
+        link:'/educator'
     },
     {
-        title:'Report',
+        title:'Advisor',
+        link:'/advisor'
+    },
+    {
+        title:'Thought Leadership',
+        link:'/leadership'
+    },
+    
+]
+export const forumsdata = [
+    {
+        title:'Space',
+        link:'/space'
+    },
+    {
+        title:'Agri Tech ',
+        link:'/agritech'
+    },
+    {
+        title:'Industry 4.0',
+        link:'/industry'
+    },
+    {
+        title:'System Engineering  ',
+        link:'/system'
+    },
+    {
+        title:'Temple Engineering',
+        link:'/temple'
+    },
+]
+export const publicationdata = [
+    {
+        title:'TIP',
+        link:'/tips'
+    },
+    {
+        title:'Update',
+        link:'/update'
+    },
+    {
+        title:'Reports',
         link:'/report'
     },
     {
-        title:'Mentoring',
-        link:'/mentoring'
+        title:'News',
+        link:'/newnews'
     },
-    {
-        title:'Startup',
-        link:'/startup'
-    },
-    {
-        title:'Training',
-        link:'/training'
-    },
-]
-export const associatedata = [
-    {
-        title:'Associate',
-        link:'/associate'
-    },
-    {
-        title:'Specialist Groups',
-        link:'/specialist'
-    },
-    {
-        title:'Boards and Committees',
-        link:'/boards'
-    }
 ]
 export const memberdata =[
    
@@ -101,10 +142,7 @@ export const memberdata =[
         title:'Institutional Membership',
         link:'/institutional'
     },
-    {
-        title:'Ngo Darpan',
-        link:'/ngo'
-    }
+    
 ]
 
 export const newsdata =[

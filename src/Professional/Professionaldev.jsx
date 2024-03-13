@@ -1,8 +1,9 @@
 import React,{useEffect} from 'react';
 import "../Styles/font.css";
-import imgprofession from "../Images/profeesionaldev.jpg";
+
 import 'aos/dist/aos.css';
 import AOS from 'aos';
+import { Link } from "react-router-dom";
 const Professionaldev = () => {
   AOS.init({
     duration: 1200,
@@ -19,23 +20,15 @@ const Professionaldev = () => {
   </div>
 </div>
 
-<div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-9 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark">
-  <div className=''>
-  <p className='text-justify'>Our focus is on continued education and fostering the culture of lifelong learning. ITCA's teams are continuously endeavouring to curate content relevant to the industry needs and structure summer schools both in India and abroad.</p>
-  <div className="flex flex-wrap justify-center   leading-8">
+<div class=" lg:flex justify-between gap-4 text-white text-xl mb-6" data-aos="fade-up">
+      <div class="w-full lg:w-1/4 p-4 bg-about text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2"> <Link to='/congress'><h1 className=" text-2xl">Incubation </h1></Link></div>
+      <div class="w-full lg:w-1/4 p-4 bg-about text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2"> <Link to='/history'><h1 className=" text-2xl">Educator </h1></Link></div>
+      <div class="w-full  lg:w-1/4 p-4 bg-about text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2">  <Link to='/governance'> <h1 className=" text-2xl">Advisor</h1></Link></div>
+      <div class="w-full  lg:w-1/4 p-4 bg-about text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2">  <Link to='/governance'> <h1 className=" text-2xl">Thought Leadership </h1></Link></div>
+      </div>
 
-<div className="w-full lg:w-1/2 md:w-1/2 sm:w-full ">
-<h1 className='text-3xl py-4 font-bold'>International Space School</h1>
-    <p  class="text-justify">International Space School has been organized by Samara University in collaboration with the United Nations Office for Outer Space Affairs, International Astronautical Federation, Paris, and UNISEC-Samara Chapter. ITCA has sponsored Student’s Team to Samara Summer School, Russia every year, since 2019.</p>
-   
-    
-  </div>
-  <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full p-2  ">
-    <img src={imgprofession} alt="satellite" className="mx-auto"  data-aos="fade-left" />
-  </div>
-  </div>
-  </div>
-</div>
+
+
  </>
   )
 }

@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 import { CgMenuGridO, CgClose } from "react-icons/cg";
 
 
-import { aboutusdata, eventdata, professiondata,associatedata,memberdata,newsdata} from "../Dataadded/Datanav";
+import { aboutusdata, eventdata, professiondata,publicationdata,memberdata,newsdata,forumsdata} from "../Dataadded/Datanav";
 import "../Styles/Navstyle.css";
 
 const Navbar = () => {
@@ -148,15 +148,36 @@ const Navbar = () => {
                   </div>
                 </div>
               </li>
+              <li className="relative group">
+                <div className="block px-4 py-2 text-white dropdown-container hover:rounded-md hover:bg-gray-800 hover:text-white font-bold">
+                Forums
+                  <div
+                    className="absolute left-0 z-50 invisible  py-2 bg-white border-gray-300 rounded shadow-lg top-10 group-hover:visible text-sm"
+                    style={{ width: "14rem" }}
+                  >
+                    {forumsdata.map((items, index) => (
+                      <div className="px-4 py-2 " key={index}>
+                        <NavLink
+                          to={items.link}
+                          className="p-2 text-black no-underline font-bold hover:rounded-md hover:bg-gray-800 hover:text-white"
+                          onClick={handleLinkClick}
+                        >
+                          {items.title}
+                        </NavLink>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </li>
               
               <li className="relative group">
                 <div className="block px-4 py-2 text-white dropdown-container hover:rounded-md hover:bg-gray-800 hover:text-white font-bold">
-                Associates
+                Publication
                   <div
                     className="absolute left-0 z-50 invisible  py-2 bg-white border-gray-300 rounded shadow-lg top-10 group-hover:visible text-sm"
                     style={{ width: "15rem" }}
                   >
-                    {associatedata.map((items, index) => (
+                    {publicationdata.map((items, index) => (
                       <div className="px-4 py-2 " key={index}>
                         <NavLink
                           to={items.link}
@@ -171,39 +192,11 @@ const Navbar = () => {
                 </div>
               </li>
 
-              <li className="relative group">
-                <div className="block px-4 py-2 text-white dropdown-container hover:rounded-md hover:bg-gray-800 hover:text-white font-bold">
-                News
-                  <div
-                    className="absolute left-0 z-50 invisible  py-2 bg-white border-gray-300 rounded shadow-lg top-10 group-hover:visible text-sm"
-                    style={{ width: "10rem" }}
-                  >
-                    {newsdata.map((items, index) => (
-                      <div className="px-4 py-2 " key={index}>
-                        <NavLink
-                          to={items.link}
-                          className="p-2 text-black no-underline font-bold hover:rounded-md hover:bg-gray-800 hover:text-white"
-                          onClick={handleLinkClick}
-                        >
-                          {items.title}
-                        </NavLink>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </li>
+             
               
              
              
-              <li>
-                <NavLink
-                  to="/experistes"
-                  className="block px-4 py-2  text-white font-bold no-underline hover:rounded-md hover:bg-gray-800 hover:text-white "
-                  onClick={handleLinkClick}
-                >
-                  Expertise
-                </NavLink>
-              </li>
+            
               <li>
                 <NavLink
                   to="/"

@@ -2,6 +2,7 @@ import React,{useEffect} from 'react';
 import "../Styles/font.css";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
+import imggovernance from "../Images/History1.jpg"
 
 const Governance = () => {
   AOS.init({
@@ -22,39 +23,10 @@ const Governance = () => {
 <div className="flex flex-wrap justify-center    leading-8">
 <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full  ">
 <p  class="text-justify px-4">ITCA has renowned and senior leaders from multiple engineering disciplines with globally recognized contributions to industry, academia, and research organizations.</p>
-<p  class="text-justify px-4">Like to know more? <a className='font-bold' href="mailto:president@itca.org.in">president@itca.org.in</a></p>
-  </div>
-  <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full" data-aos="fade-left">
-  <div class="max-w-md mx-auto bg-back text-black rounded-lg overflow-hidden md:max-w-lg">
-  <div class="md:flex">
-    <div class="w-full px-4 py-6">
-      <div class="mb-6">
-        
-        <input type="text" id="name" name="name" placeholder=" your Name" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500" />
-      </div>
-      <div class="mb-6">
-     
-        <input type="email" id="email" name="email" placeholder=" your Email" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500" />
-      </div>
-      <div class="mb-6">
-     
-        <input type="number" id="number" name="number" placeholder=" your Number" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500" />
-      </div>
-      <div class="mb-6">
-     
-        <input type="subject" id="subject" name="subject" placeholder="Subject" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500" />
-      </div>
-      <div class="mb-6">
-        
-        <textarea id="message" name="message" rows="4" placeholder="Enter your message" class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500"></textarea>
-      </div>
-      <div class="text-center">
-        <button type="submit" class="py-2 px-4 bg-back1 text-white font-semibold rounded-md hover:bg-white hover:text-black focus:outline-none focus:bg-indigo-600">Send Message</button>
-      </div>
-    </div>
-  </div>
-</div>
 
+  </div>
+  <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full  ">
+    <img src={imggovernance} alt="satellite" className="mx-auto" data-aos="fade-left"/>
   </div>
 </div>
 </div>

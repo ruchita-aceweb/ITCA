@@ -22,7 +22,8 @@ const Individual = () => {
 </div>
 <div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-9 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark">
 <h1 className='text-3xl py-4 font-bold'>Individual</h1>
-<p class="text-justify">The Association shall consist of individual members who are qualified as Graduate or Equivalent in the disciplines and pursuing with Technology domains in India along with membership of any recognized professional body of any specialized field. The member categories are:</p>
+<p class="text-justify">Technology's pervasive presence across our globe underscores its vast diversity, embodied by our esteemed Fellows who represent a rich spectrum within science, engineering, and technology. With passion, they tackle the most intricate challenges of every domain through this unique ITCA platform. Founder Fellows, pillars of this endeavor, bring forth a wealth of wisdom. Outstanding Honerary Fellows shine as lifetime achievers and technology gems in their respective fields, while all other Fellows are significant contributors to national development. The entry-level category of members brings diverse expertise, and student members are aspiring graduates in science, engineering, and technology. Membership across all categories is exclusively by invitation.</p>
+<p className='text-justify'>The Association shall consist of individual members who are qualified as Graduate or Equivalent in the disciplines and pursuing with Technology domains in India along with membership of any recognized professional body of any specialized field. The member categories are:</p>
 <div className="flex flex-wrap justify-center px-10  leading-8">
 
 <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full p-4 ">
