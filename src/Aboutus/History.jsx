@@ -28,7 +28,7 @@ const History = () => {
   <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full  ">
     <img src={history} alt="satellite" className="mx-auto"  data-aos="fade-right" />
   </div>
-  <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full lg:pt-4 ">
+  <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full ">
   <h1 class="text-justify text-xl p-4 font-bold">ITC over the last 18 years has attained international prominence as a unique platform fostering Industry-Academia-Research Labs-Policy Makers’ collaboration with the objective of capacity-building for global technological progress.</h1>
   <p  class="text-justify px-4">The need for a dedicated Association for Technologists comprising of scientists, engineers, entrepreneurs, and policymakers has been echoed at many summits, fora, including at the previous editions of ITC; and had gained momentum with the call to establish an Association under the Societies Registration Act. At the ITC-2017, a resolution was unanimously adopted in the Bangalore Declaration that Technology Professionals from the industry, R&D Laboratories, and Academic Institutions should collaborate and 'institutionalize' the synergy by establishing the Indian Technology Congress Association (ITCA).</p>
  
@@ -42,7 +42,7 @@ const History = () => {
 
 
 
-<div className="w-full lg:w-1/2 md:w-1/2 sm:w-full lg:pt-16 ">
+<div className="w-full lg:w-1/2 md:w-1/2 sm:w-full  ">
 <p  class="text-justify px-4">The envisioned objectives of ITCA would include advancing and promoting the cause of technology in India and abroad; organizing annual meets / thematic expositions to promote R&D and collaboration leading to the advancement of technology; publishing country reports, journals and transactions as may be contextually relevant; taking up the consultancy and studies; and instituting and presenting Awards to recognize and honour significant contributions by individuals and organizations.</p>
 
 <p  class="text-justify px-4">ITCA enshrining these objectives and ideas was formally registered at Bangalore on 03 January 2018. While these were the initial thoughts, we anticipate that refinements would happen as members collaborate and ITCA evolves over the coming months. The initial Memorandum / Articles of Association, and the associated set of byelaws was developed with the intent to set the context for growth of ITCA.</p>

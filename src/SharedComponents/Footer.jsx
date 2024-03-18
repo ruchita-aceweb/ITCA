@@ -24,6 +24,15 @@ const Footer = () => {
     { text: "Contact", to: "/" },
    
   ];
+  const supportLinks = [
+    { text: "Policy and Advocacy", to: "/" },
+    { text: "Awards and Recognition", to: "/" },
+    { text: "ITCA Learning Initiatives", to: "/" },
+    { text: "News", to: "/" },
+    { text: "Events", to: "/" },
+ 
+   
+  ];
   const handleKnowMoreClick = () => {
     // Scroll to the top of the page when the "Know More" button is clicked
     window.scrollTo({ top: 0, behavior: "auto" });
@@ -94,7 +103,7 @@ const Footer = () => {
           <SectionHeader text="Support" />
           <ul className="footer-link">
           <ul className="footer-link">
-            {quickLinks.map((link, index) => (
+            {supportLinks.map((link, index) => (
               <FooterLink
                 key={index}
                 text={link.text}
