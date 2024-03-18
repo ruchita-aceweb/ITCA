@@ -73,8 +73,7 @@ const Home = () => {
 </div>
 <div className="bg-home">
 <div class="container m-auto text-white p-6 leading-8">
-<h1 className="text-center  text-5xl p-2 mb-4  font-bold">75 Students’ Satellites Mission</h1>
-    <p className="lg:text-center  text-justify">Indian Prime Minister Shri. Narendra Modi Ji appraised the UN General Assembly of the nation's intent to Launch 75 Students built Satellites that have been developed and built by Indian Schools and Colleges. Indian Technology Congress Association initiated in 2018, the 75 Students' Satellites Mission to Celebrate India's 75 years of Freedom by 2022 during ITC, 2018 held at Bangalore.</p>
+
     <h1 className="text-center mt-4 mb-2 text-3xl font-bold text-white">About ITCA</h1>
     <p className="lg:text-center  text-justify text-white mb-4">Welcome to ITCA-we Encourage, Educate, Envision and Empower the engineering and technology fraternity across the globe to conceptualize and realize engineering solutions for societal needs.</p>
     <div className="flex justify-center mt-2 bg-green mb-2">
