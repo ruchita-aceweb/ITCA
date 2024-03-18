@@ -46,6 +46,8 @@ import System from "./Forums/System.jsx";
 import Temple from "./Forums/Temple.jsx";
 import Proceedings from "./Professional/Proceedings.jsx";
 import Mentoring from "./Professional/Mentoring.jsx";
+import Aboutinfo from "./Aboutus/Aboutinfo.jsx";
+import Eventinfo from "./Events/Eventinfo.jsx";
 
 
 
@@ -76,6 +78,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/aboutus" element={<Aboutus/>}/>
+        <Route path="/aboutinfo" element={<Aboutinfo/>}/>
         <Route path="/vision" element={<Vision/>}/>
         <Route path="/mission" element={<Mission/>}/>
         <Route path="/heritage" element={<History/>} />
@@ -85,6 +88,7 @@ const App = () => {
         <Route path="/strategy" element={<Strategy/>} />
         <Route path="/sustainable" element={<Sustainabledev/>}/>
         <Route path="/event" element={<Event/>}/>
+        <Route path="/eventinfo" element={<Eventinfo/>}/>
         <Route path="/congress" element={<Congress/>}/>
         <Route path="/webinar" element={<Webinar/>}/>
         <Route path="/masterclass" element={<Masterclass/>}/>

@@ -1,52 +1,131 @@
-import React,{useEffect} from 'react';
+import React, { useState, useEffect } from "react";
+
 import "../Styles/font.css";
-import event from "../Images/new10.png";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
 
 import { Link } from "react-router-dom";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const Event = () => {
-  AOS.init({
-    duration: 1200,
-  });
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+  const [isOpen, setIsOpen] = useState(false);
+  const[isOpen1, setIsopen1]= useState(false);
+  const[isOpen2, setIsopen2]= useState(false);
+  const[isOpen3, setIsopen3]= useState(false);
+ 
+
+  const toggleAccordion = () => {
+    setIsOpen(!isOpen);
+   
+  };
+  const toggleAccordion1 = () =>{
+    setIsopen1 (!isOpen1)
+  }
+  const toggleAccordion2 = () =>{
+    setIsopen2 (!isOpen2)
+  }
+  const toggleAccordion3 = () =>{
+    setIsopen3 (!isOpen3)
+  }
+ 
+
+
+AOS.init({
+  duration: 1200,
+});
+useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
+
   return (
     <>
-     <div class='bg-event bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down">
-  <div class="text-center">
-    <h1 class='text-white py-2 text-6xl'>Events</h1>
-    <p class='text-white text-xl'>Home/Events</p>
-  </div>
-</div>
-<div class=" lg:flex justify-between gap-4 text-white text-xl " data-aos="fade-up">
-      <div class="w-full lg:w-1/4 p-4 bg-events text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2"> <Link to='/congress'><h1 className=" text-2xl">Congress </h1></Link></div>
-      <div class="w-full lg:w-1/4 p-4 bg-events text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2"> <Link to='/webinar'><h1 className=" text-2xl">Webinars </h1></Link></div>
-      <div class="w-full  lg:w-1/4 p-4 bg-events text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2">  <Link to='/masterclass'> <h1 className=" text-2xl">Masterclass</h1></Link></div>
-      <div class="w-full  lg:w-1/4 p-4 bg-events text-center lg:rounded-bl-lg lg:rounded-br-lg lg:m-0 mb-2">  <Link to='/pastevent'> <h1 className=" text-2xl">Past Event</h1></Link></div>
+    <div className='bg-aboutus bg-cover bg-center h-72 flex lg:px-28 items-center ' data-aos="fade-down">
+      <div className="">
+        <h1 className='text-white py-2 text-6xl'>Events</h1>
+        <p className='text-white text-xl'>Conferences, seminars, meetings with experts, online courses, hackathons, </p>
+        <p className='text-white text-xl'> international student exchange programmes,  summer schools abroad and</p>
+         <p className='text-white text-xl'> in India and meetings with ITCA leadership are among myriad events that are offered to members.</p>
+         <Link to='/eventinfo'>
+ <button className="bg-skyblue py-2 px-4 rounded-lg text-white mt-4 ">Learn More</button>
+ </Link>
       </div>
-<div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-9 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark">
-<p class="text-justify">Conferences, seminars, meetings with experts, online courses, hackathons, international student exchange programmes, summer schools abroad and in India and meetings with ITCA leadership are among myriad events that are offered to members.</p>
-<p class="text-justify">These events are organized to facilitate enhancement of the engineering profession by active learning, networking, contributing, and collaborating with peers and engineering practitioners.</p>
-<p class="text-justify">The emphasis of all ITCA events is on highlighting and encouraging interdisciplinary engineering and associated specialties to develop new products, solutions, and services for societal requirements.</p>
-<div className='flex flex-wrap justify-center p-4'>
-  <div className=' w-full lg:w-1/3 md:w-1/2 sm:w-full p-4 '>
-    <h1 className='text-2xl'>ITC</h1>
-    <p className='text-justify'>The Indian Technology Congress (ITC) is ITCA's yearly premier event. This conference, with participation by recognized and renowned speakers from India and abroad is structured on a contemporary theme. It facilitates deep dives into exploring cutting-edge technologies with emphasis on sustainable development.</p>
-  </div>
-  <div className='w-full lg:w-1/3 md:w-1/2 sm:w-full '>
-    <img src={event} alt='satelliate'/>
-  </div>
-  <div className=' w-full lg:w-1/3 md:w-1/2 sm:w-full p-4'>
-    <h1 className='text-2xl'>ITC-2022</h1>
-    <p className='text-justify'>ITC-2022 is tentatively scheduled for September 2022, and will be organized in collaboration with Chandigarh University, and is on the theme 'Pathways for Intelligent, Digitised and Sustainable Execution of Mega Projects'.</p>
-  </div>
-</div>
-</div>
+    </div>
 
-    </>
+    <div className="lg:flex justify-center gap-4 text-white mb-4" data-aos="fade-up">
+    <div className={`w-full lg:w-1/4 p-4 bg-events text-center  lg:m-0 mb-2 lg:rounded-bl-lg lg:rounded-br-lg ${isOpen ? 'h-auto' : 'h-24'}`}>
+      <h1 className="text-2xl cursor-pointer mt-2" onClick={toggleAccordion}>
+      Congress
+      </h1>
+      {isOpen && (
+         <div>
+         <p className="mt-2" data-aos="fade-down">
+           "Indian Technology Congress (ITC) is a flagship event of the Indian Technology Congress Association (ITCA), a dedicated Association for Technologists focused on facilitating collaboration between Professionals from the industry"
+         </p>
+           <Link to="/congress" className="text-center">
+           <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
+             <p className="">Read more</p>
+             <span className="ml-1"><FaArrowRightLong /></span>
+           </div>
+         </Link>
+         </div>
+      )}
+    </div>
+    <div className={`w-full lg:w-1/4 p-4 bg-events text-center  lg:m-0 mb-2 lg:rounded-bl-lg lg:rounded-br-lg ${isOpen1 ? 'h-auto' : 'h-24'}`}>
+      <h1 className="text-2xl cursor-pointer mt-2" onClick={toggleAccordion1}>
+      Webinars
+      </h1>
+      {isOpen1 && (
+       <div>
+       <p className="mt-2" data-aos="fade-down">
+         "ITCA offers webinars and live seminars to apprise students, faculty and technology aficionados on aspects of CubeSat technology to assist students and faculty/teachers in universities, "
+       </p>
+         <Link to="/webinar" className="text-center">
+         <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
+           <p className="">Read more</p>
+           <span className="ml-1"><FaArrowRightLong /></span>
+         </div>
+       </Link>
+       </div>
+      )}
+    </div>
+    <div className={`w-full lg:w-1/4 p-4 bg-events text-center  lg:m-0 mb-2 lg:rounded-bl-lg lg:rounded-br-lg ${isOpen2 ? 'h-auto' : 'h-24'}`}>
+      <h1 className="text-2xl cursor-pointer mt-2" onClick={toggleAccordion2}>
+      Masterclass
+      </h1>
+      {isOpen2 && (
+        <p className="mt-2" data-aos="fade-down">
+          "Coming Soon"
+        </p>
+      )}
+    </div>
+    <div className={`w-full lg:w-1/4 p-4 bg-events text-center  lg:m-0 mb-2 lg:rounded-bl-lg lg:rounded-br-lg ${isOpen3 ? 'h-auto' : 'h-24'}`}>
+      <h1 className="text-2xl cursor-pointer mt-2" onClick={toggleAccordion3}>
+      Past Events
+      </h1>
+      {isOpen3 && (
+        <div>
+        <p className="mt-2" data-aos="fade-down">
+          "ITC-2021, the 9th edition of Indian Technology Congress, was unique in that it facilitated exploring space technologies for sustainable development, sustainable design paradigms for student-built satellites and nanosatellites. Space Technology Gurus, Subject Matter Experts and 'Techpreneurs' shared their vision on contemporary technologies and how these are likely to influence our way of life. "
+        </p>
+          <Link to="/pastevent" className="text-center">
+          <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
+            <p className="">Read more</p>
+            <span className="ml-1"><FaArrowRightLong /></span>
+          </div>
+        </Link>
+        </div>
+        
+      )}
+    </div>
+  
+  
+  </div>
+
+
+  
+
+
+  </>
   )
 }
 
