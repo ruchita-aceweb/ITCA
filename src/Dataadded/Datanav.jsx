@@ -4,18 +4,7 @@ export const aboutusdata =[
         link:'/aboutus'
     },
    
-    {
-        title:'Vision',
-        link:'/vision'
-    },
-    {
-        title:'Mission',
-        link:'/mission'
-    },
-    {
-        title:'Governance',
-        link:'/governance'
-    },
+   
     {
         title:'Heritage',
         link:'/heritage'
