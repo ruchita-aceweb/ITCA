@@ -110,7 +110,7 @@ const Aboutus = () => {
         {isOpen3 && (
           <div>
           <p className="mt-2" data-aos="fade-down">
-            "ITC over the last 18 years has attained international prominence as a unique platform fostering Industry-Academia-Research Labs-Policy Makers’ collaboration with the objective of capacity-building for global technological progress."
+            "ITC over the last 18 years has attained international prominence as a unique platform  ."
           </p>
             <Link to="/heritage" className="text-center">
             <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
@@ -129,7 +129,7 @@ const Aboutus = () => {
         {isOpen4 && (
           <div>
           <p className="mt-2" data-aos="fade-down">
-            "ITCA has structured active and functional partnerships with global organizations to build synergy with leading institutions abroad to facilitate cross-pollination of ideas and create opportunities for collaboration. ITCA’s partnerships include:"
+          "ITCA has structured active and functional partnerships with global organizations to build "
           </p>
             <Link to="/partnership" className="text-center">
             <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white ">
@@ -168,7 +168,7 @@ const Aboutus = () => {
         {isOpen7 && (
           <div>
           <p className="mt-2" data-aos="fade-down">
-            "ITCA has completed the registration on NITI-Aayog maintained platform for voluntary organizations to bring about greater partnership between government & voluntary sector and foster better transparency, efficiency. "
+            "ITCA has completed the registration on NITI-Aayog maintained platform for voluntary ."
           </p>
           <Link to="/ngo" className="text-center">
       <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white ">
