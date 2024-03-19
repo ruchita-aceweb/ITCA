@@ -124,10 +124,7 @@ const Home = () => {
   AOS.init({
     duration: 1200,
   });
-  const [selectedImage, setSelectedImage] = useState(null);
-  const handleImageClick = (image) => {
-    setSelectedImage(image);
-  };
+
   useEffect(() => {
     window.scrollTo(0, 0); // Scrolls to the top of the page when component mounts
   }, []);
@@ -135,7 +132,7 @@ const Home = () => {
   return (
     <>
 
-<div className='bg-homeabout bg-cover bg-center h-72 flex lg:px-28 items-center ' data-aos="fade-down">
+<div className='bg-homeabout bg-cover bg-center  flex lg:px-28 items-center ' data-aos="fade-down" style={{ height: '700px' }}>
         <div className="">
           <h1 className='text-white py-2 text-6xl'>About Us</h1>
           <p className='text-white text-xl'>Welcome to ITCA-we Encourage, Educate, Envision </p>
@@ -185,7 +182,7 @@ const Home = () => {
         {isOpen3 && (
           <div>
           <p className="mt-2" data-aos="fade-down">
-            "ITC over the last 18 years has attained international prominence as a unique platform fostering Industry-Academia-Research Labs-Policy Makers’ collaboration with the objective of capacity-building for global technological progress."
+            "ITC over the last 18 years has attained international prominence as a unique platform ."
           </p>
             <Link to="/heritage" className="text-center">
             <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
@@ -204,7 +201,7 @@ const Home = () => {
         {isOpen4 && (
           <div>
           <p className="mt-2" data-aos="fade-down">
-            "ITCA has structured active and functional partnerships with global organizations to build synergy with leading institutions abroad to facilitate cross-pollination of ideas and create opportunities for collaboration. ITCA’s partnerships include:"
+            "ITCA has structured active and functional partnerships with global organizations to build. "
           </p>
             <Link to="/partnership" className="text-center">
             <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white ">
@@ -243,7 +240,7 @@ const Home = () => {
         {isOpen7 && (
           <div>
           <p className="mt-2" data-aos="fade-down">
-            "ITCA has completed the registration on NITI-Aayog maintained platform for voluntary organizations to bring about greater partnership between government & voluntary sector and foster better transparency, efficiency."
+            "ITCA has completed the registration on NITI-Aayog maintained platform for voluntary ."
           </p>
           <Link to="/ngo" className="text-center">
       <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white ">
@@ -256,7 +253,7 @@ const Home = () => {
       </div>
     
     </div>
-    <div className='bg-aboutus bg-cover bg-center h-72 flex lg:px-28 items-center ' data-aos="fade-down">
+    <div className='bg-homeevent bg-cover bg-center h-72 flex lg:px-28 items-center ' data-aos="fade-down" style={{ height: '700px' }}>
       <div className="">
         <h1 className='text-white py-2 text-6xl'>Events</h1>
         <p className='text-white text-xl'>Conferences, seminars, meetings with experts, online courses, hackathons, </p>
@@ -338,7 +335,7 @@ const Home = () => {
   
   </div>
 
-  <div class='bg-dev bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down">
+  <div class='bg-homeprofession bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down" style={{ height: '700px' }}>
   <div class="text-center">
     <h1 class='text-white py-2 text-6xl'>Professional Development</h1>
   
@@ -426,7 +423,7 @@ const Home = () => {
   </div>
 
 
-  <div class='bg-dev bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down">
+  <div class='bg-homemember bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down" style={{ height: '700px' }}>
   <div class="text-center">
     <h1 class='text-white py-2 text-6xl'>Membership</h1>
 
@@ -441,7 +438,7 @@ const Home = () => {
       {isOpen16 && (
          <div>
          <p className="mt-2" data-aos="fade-down">
-           "Technology's pervasive presence across our globe underscores its vast diversity, embodied by our esteemed Fellows who represent a rich spectrum within science, engineering, and technology. With passion, they tackle the most intricate challenges of every domain through this unique ITCA platform. Founder Fellows, pillars of this endeavor, bring forth a wealth of wisdom."
+           "Technology's pervasive presence across our globe underscores its vast diversity, embodied by our esteemed Fellows who represent a rich spectrum within science. "
          </p>
            <Link to="/individual" className="text-center">
            <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
@@ -459,7 +456,7 @@ const Home = () => {
       {isOpen17 && (
        <div>
        <p className="mt-2" data-aos="fade-down">
-         "The Institutional Members category welcomes associations, public, and private institutions engaged in fields aligned with the objectives of the ITCA. This includes academia, universities, research institutes, industrial entities, and professional organizations, both domestically and internationally, with a focused interest in technological advancements."
+         "The Institutional Members category welcomes associations, public, and private institutions engaged in fields aligned with the objectives of the ITCA."
        </p>
          <Link to="/institutional" className="text-center">
          <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
@@ -476,7 +473,7 @@ const Home = () => {
   
   </div>
 
-  <div class='bg-dev bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down">
+  <div class='bg-homeforums bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down" style={{ height: '700px' }}>
   <div class="text-center">
     <h1 class='text-white py-2 text-6xl'>Forums</h1>
 
@@ -504,7 +501,7 @@ const Home = () => {
       {isOpen19 && (
        <div>
        <p className="mt-2" data-aos="fade-down">
-         "AgriTech refers to the emerging opportunities for the Technology, products& services that supports Agricultural Domain to meet the needs of a projected 10 Billion global inhabitants by 2050. AgriTech Advisory Board brings together the distinguished expertise equally from the 'agricultural' domain as well as the 'technology' in all its dimensions."
+         "AgriTech refers to the emerging opportunities for the Technology, products& services that supports Agricultural."
        </p>
          <Link to="/educator" className="text-center">
          <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
@@ -548,7 +545,7 @@ const Home = () => {
       {isOpen22 && (
         <div>
         <p className="mt-2" data-aos="fade-down">
-          "Whispers in Heritage Decoding the Symbolic Temple Engineering Ancient innovators defied gravity and time, crafting structures of beauty and engineering prowess. Temple engineering, a blend of art and science, holds forgotten knowledge within the sands of time. Modern technology now seeks to unlock these secrets, using algorithms to reveal ."
+          "Whispers in Heritage Decoding the Symbolic Temple Engineering Ancient innovators defied gravity and time, crafting ."
         </p>
           <Link to="/advisor" className="text-center">
           <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
@@ -567,7 +564,7 @@ const Home = () => {
 
 
 
-  <div class='bg-dev bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down">
+  <div class='bg-homepublication bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down" style={{ height: '700px' }}>
   <div class="text-center">
     <h1 class='text-white py-2 text-6xl'>Publication</h1>
 

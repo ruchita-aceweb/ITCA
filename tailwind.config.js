@@ -50,6 +50,11 @@ export const theme = {
       'event':"url('/src/Images/Banner/webinarbanner.jpg')",
       'dev':"url('/src/Images/Banner/devbanner.jpg')",
       'homeabout':"url('/src/Images/Banner/homebanner.jpg')",
+   'homeevent':"url('/src/Images/Banner/homebanner3.jpg')",
+   'homeprofession':"url('/src/Images/satellite_banner.jpg')",
+   'homemember':"url('/src/Images/pro.jpg')",
+   'homeforums':"url('/src/Images/Banner/homebanner1 .jpg')",
+   'homepublication':"url('/src/Images/Banner/homebanner2.jpg')",
     
     }
   },
