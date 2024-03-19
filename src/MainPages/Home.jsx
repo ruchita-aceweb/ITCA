@@ -1,58 +1,126 @@
 import React,{useState,useEffect} from "react";
 import "../Styles/font.css";
-import Oureventcar from "./Oureventcar"
-import imgsat from "../Images/sat2.jpg";
-import imgsat1 from "../Images/pro.jpg";
 
-import imgment1 from "../Images/ment2.jpg";
-import imgment2 from "../Images/sat3.jpg";
-import imgment3 from "../Images/new2.jpg";
-import imgment4 from "../Images/new4.jpg";
-import imgment5 from "../Images/new6.jpg";
-import imgment6 from "../Images/new3.jpg";
-import imgment7 from "../Images/new7.jpg";
-import imgment8 from "../Images/new8.jpg";
-import img1 from "../Images/Logos-01.png";
-import img2 from "../Images/Logos-02.png";
-import img3 from "../Images/Logos-03.png";
-import img4 from "../Images/Logos-04.png";
-import img5 from "../Images/Logos-05.png";
-import img6 from "../Images/Logos-06.png";
-import img7 from "../Images/Logos-07.png";
-import img8 from "../Images/Logos-08.png";
-import img9 from "../Images/Logos-09.png";
-import img10 from "../Images/Logos-10.png";
-import img11 from "../Images/Logos-11.png";
-import img12 from "../Images/Logos-12.png";
-import img13 from "../Images/Logos-13.png";
-import img14 from "../Images/Logos-14.png";
-import img15 from "../Images/Logos-15.png";
-import img16 from "../Images/Logos-16.png";
-import img17 from "../Images/Logos-17.png";
-import img18 from "../Images/Logos-18.png";
-import img19 from "../Images/Logos-19.png";
-import img20 from "../Images/Logos-20.png";
-import img21 from "../Images/Logos-21.png";
-import img22 from "../Images/Logos-22.png";
-import img23 from "../Images/Logos-23.png";
-import img24 from "../Images/Logos-24.png";
-import img25 from "../Images/Logos-25.png";
-import img26 from "../Images/Logos-26.png";
-import img27 from "../Images/Logos-27.png";
-import img28 from "../Images/Logos-28.png";
-import img29 from "../Images/Logos-29.png";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
-import imgsub from "../Images/Membership.jpg";
 
-import { MdModelTraining } from "react-icons/md";
-import { VscServerProcess } from "react-icons/vsc";
-import { VscSymbolEnumMember } from "react-icons/vsc";
 import { Link } from "react-router-dom";
+
+import { FaArrowRightLong } from "react-icons/fa6";
 
 
 
 const Home = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const[isOpen1, setIsopen1]= useState(false);
+  const[isOpen2, setIsopen2]= useState(false);
+  const[isOpen3, setIsopen3]= useState(false);
+  const[isOpen4, setIsopen4]= useState(false);
+  const[isOpen5, setIsopen5]= useState(false);
+  const[isOpen6, setIsopen6]= useState(false);
+  const[isOpen7, setIsopen7]= useState(false);
+  const[isOpen8, setIsopen8]= useState(false);
+  const[isOpen9, setIsopen9]= useState(false);
+  const[isOpen10, setIsopen10]= useState(false);
+  const[isOpen11, setIsopen11]= useState(false);
+  const[isOpen12, setIsopen12]= useState(false);
+  const[isOpen13, setIsopen13]= useState(false);
+  const[isOpen14, setIsopen14]= useState(false);
+  const[isOpen15, setIsopen15]= useState(false);
+  const[isOpen16, setIsopen16]= useState(false);
+  const[isOpen17, setIsopen17]= useState(false);
+  const[isOpen18, setIsopen18]= useState(false);
+  const[isOpen19, setIsopen19]= useState(false);
+  const[isOpen20, setIsopen20]= useState(false);
+  const[isOpen21, setIsopen21]= useState(false);
+  const[isOpen22, setIsopen22]= useState(false);
+  const[isOpen23, setIsopen23]= useState(false);
+  const[isOpen24, setIsopen24]= useState(false);
+  const[isOpen25, setIsopen25]= useState(false);
+  const[isOpen26, setIsopen26]= useState(false);
+
+  const toggleAccordion = () => {
+    setIsOpen(!isOpen);
+   
+  };
+  const toggleAccordion1 = () =>{
+    setIsopen1 (!isOpen1)
+  }
+  const toggleAccordion2 = () =>{
+    setIsopen2 (!isOpen2)
+  }
+  const toggleAccordion3 = () =>{
+    setIsopen3 (!isOpen3)
+  }
+  const toggleAccordion4 = () =>{
+    setIsopen4 (!isOpen4)
+  }
+  const toggleAccordion5 = () =>{
+    setIsopen5 (!isOpen5)
+  }
+  const toggleAccordion6 = () =>{
+    setIsopen6 (!isOpen6)
+  }
+  const toggleAccordion7 = () =>{
+    setIsopen7 (!isOpen7)
+  }
+  const toggleAccordion8 = () =>{
+    setIsopen8 (!isOpen8)
+  }
+  const toggleAccordion9 = () =>{
+    setIsopen9 (!isOpen9)
+  }
+  const toggleAccordion10 = () =>{
+    setIsopen10 (!isOpen10)
+  }
+  const toggleAccordion11 = () =>{
+    setIsopen11 (!isOpen11)
+  }
+  const toggleAccordion12 = () =>{
+    setIsopen12 (!isOpen12)
+  }
+  const toggleAccordion13 = () =>{
+    setIsopen13 (!isOpen13)
+  }
+  const toggleAccordion14 = () =>{
+    setIsopen14 (!isOpen14)
+  }
+  const toggleAccordion15 = () =>{
+    setIsopen15 (!isOpen15)
+  }
+  const toggleAccordion16 = () =>{
+    setIsopen16 (!isOpen16)
+  }
+  const toggleAccordion17 = () =>{
+    setIsopen17 (!isOpen17)
+  }
+  const toggleAccordion18 = () =>{
+    setIsopen18 (!isOpen18)
+  }
+  const toggleAccordion19 = () =>{
+    setIsopen19 (!isOpen19)
+  }
+  const toggleAccordion20 = () =>{
+    setIsopen20 (!isOpen20)
+  }
+  const toggleAccordion21 = () =>{
+    setIsopen21 (!isOpen21)
+  }
+  const toggleAccordion22 = () =>{
+    setIsopen22 (!isOpen22)
+  }
+  const toggleAccordion23 = () =>{
+    setIsopen23 (!isOpen23)
+  }
+  const toggleAccordion24 = () =>{
+    setIsopen24 (!isOpen24)
+  }
+  const toggleAccordion25 = () =>{
+    setIsopen25 (!isOpen25)
+  }
+  const toggleAccordion26 = () =>{
+    setIsopen26 (!isOpen26)
+  }
   AOS.init({
     duration: 1200,
   });
@@ -66,358 +134,511 @@ const Home = () => {
 
   return (
     <>
-   <div class="bg-satellite_banner bg-cover bg-center h-96 " data-aos="fade-up">
-    <div class="container m-auto">
-        <h1 class="text-white text-6xl  px-10  py-20 font-bold  " data-aos="fade-up">Indian <br></br>Technology <br></br> Congress Association</h1>
-    </div>
-</div>
-<div className="bg-home">
-<div class="container m-auto text-white p-6 leading-8">
 
-    <h1 className="text-center mt-4 mb-2 text-3xl font-bold text-white">About ITCA</h1>
-    <p className="lg:text-center  text-justify text-white mb-4">Welcome to ITCA-we Encourage, Educate, Envision and Empower the engineering and technology fraternity across the globe to conceptualize and realize engineering solutions for societal needs.</p>
-    <div className="flex justify-center mt-2 bg-green mb-2">
-      <Link to='/aboutus'>
-   <button className="bg-skyblue py-2 px-4 rounded-lg ">Learn More</button>
+<div className='bg-homeabout bg-cover bg-center h-72 flex lg:px-28 items-center ' data-aos="fade-down">
+        <div className="">
+          <h1 className='text-white py-2 text-6xl'>About Us</h1>
+          <p className='text-white text-xl'>Welcome to ITCA-we Encourage, Educate, Envision </p>
+          <p className='text-white text-xl'>and Empower the engineering and technology fraternity</p>
+           <p className='text-white text-xl'> across the globe to conceptualize and realize engineering solutions for societal needs.</p>
+           <Link to='/aboutinfo'>
+   <button className="bg-skyblue py-2 px-4 rounded-lg text-white mt-4 ">Learn More</button>
    </Link>
-    </div>
-   
-</div>
-</div>
-<div className="flex flex-wrap bg-black text-white leading-8 ">
-
-<div className="container m-auto w-full lg:w-1/2 md:w-1/2 sm:w-full  lg:px-10">
-    <h1 className="text-center lg:px-6 py-2 text-2xl font-bold">Building the World of Tomorrow with Today's Engineering</h1>
-    <p className="lg:text-center  text-justify lg:px-6 px-4 py-4">We are pushing the boundaries of engineering and technology, not just for today, but for the future, in collaboration with our Fellows, Members, and Partners. To contribute to societal growth, we are building skills and competencies and reforming the workforce. Our members influence public policy and drive innovation. By doing all these, ITCA drives engineering to shape the world of tomorrow</p>
-    <div className="flex justify-center mt-2 bg-green mb-2">
-    <Link to='/advisor'>
-   <button className="bg-skyblue py-2 px-4 rounded-lg ">Learn More</button>
-</Link>
-    </div>
-  </div>
-  <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full ">
-    <img src={imgsat1} alt="satellite" className="mx-auto" data-aos="fade-left" onClick={() => handleImageClick(imgsat1)} />
-  </div>
-
-  <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full ">
-    <img src={imgsat} alt="satellite" className="mx-auto" data-aos="fade-right" onClick={() => handleImageClick(imgsat)}/>
-  </div>
-  <div className="container m-auto w-full lg:w-1/2 md:w-1/2 sm:w-full px-4 lg:px-10">
-    <h1 className="text-center p-4 text-2xl font-bold">Professional Development</h1>
-    <p className="lg:text-center  text-justify ">Our focus is on continued education and fostering the culture of lifelong learning. ITCA's teams are continuously endeavouring to curate content relevant to the industry needs and structure summer schools both in India and abroad.</p>
-    <div className="flex justify-center mt-2 bg-green mb-2">
-    <Link to='/professionaldev'>
-   <button className="bg-skyblue py-2 px-4 rounded-lg ">Learn More</button>
-   </Link>
-    </div>
-  </div>
-</div>
-  <div className="flex flex-wrap bg-ligthgrey text-white lg:px-10 py-4 leading-8">
-  <div className="w-full lg:w-1/3 md:w-1/2 sm:w-full  ">
-   
-  <h1 className="text-center p-4 text-2xl  font-bold">Training</h1>
-  <div className="text-white flex justify-center font-bold  "><MdModelTraining className="bg-skyblue p-2 text-8xl text-white rounded-full" /></div>
-    <p className="lg:text-center  text-justify p-4 ">ITCA has developed content for continuing education programs (for industry professionals intending to diversify into new areas) in areas of SpaceTech, and is also developing content focused on high school educational programs.
-
-</p>
-
-<div className="flex justify-center mt-2 bg-green mb-2">
-<Link to='/training'>
-   <button className="bg-skyblue py-2 px-4 rounded-lg">Learn More</button>
-   </Link>
-    </div>
-  </div>
-  <div className="w-full lg:w-1/3 md:w-1/2 sm:w-full  ">
-    <h1 className="text-center p-4 text-2xl font-bold">Proceedings</h1>
-    <div className="text-white flex justify-center font-bold  "><VscServerProcess className="bg-skyblue p-2 text-8xl text-white rounded-full" /></div>
-    <p className="lg:text-center  text-justify p-4">Proceedings are thematic ITCA's deep-dive publications providing detailed review of technical advances with sectoral scan and possible use-cases for technologies
-
-.</p>
-<div className="flex justify-center mt-2 bg-green mb-2 ">
-<Link to='/proceedings'>
-   <button className="bg-skyblue py-2 px-4 rounded-lg ">Learn More</button>
-   </Link>
-    </div>
-  </div>
-  <div className="w-full lg:w-1/3 md:w-1/2 sm:w-full">
-    <h1 className="text-center p-4 text-2xl font-bold">Membership and Accredation</h1>
-    <div className="text-white flex justify-center font-bold  "><VscSymbolEnumMember className="bg-skyblue p-2 text-8xl text-white rounded-full" /></div>
-    <p className="lg:text-center  text-justifyr p-4 ">ITCA consists of individual members who are qualified as Graduate or Equivalent in the disciplines and pursuing with Technology domains in India along with membership of any recognized professional body of any specialized field. The member categories:</p>
-    <div className="flex justify-center mt-2 bg-green mb-2">
-    <Link to='/individual'>
-   <button className="bg-skyblue py-2 px-4 rounded-lg ">Learn More</button>
-   </Link>
-    </div>
-  </div>
+        </div>
+      </div>
   
-  
-
-</div>
-
-<div className="flex flex-wrap justify-center bg-black text-white leading-8">
-<div className="w-full lg:w-1/2 md:w-1/2 sm:w-full ">
-    <img src={imgment1} alt="satellite" className="mx-auto" data-aos="fade-right" onClick={() => handleImageClick(imgment1)} />
-  </div>
-<div className="w-full lg:w-1/2 md:w-1/2 sm:w-full  lg:pt-16">
-    <h1 className="text-center p-4 text-2xl  font-bold">Mentoring</h1>
-    <p className="lg:text-center  text-justify  lg:px-10 px-4">Mentoring Initiative is a member benefit for ITCA members seeking career guidance or advice from experienced professionals with diverse experience to become contributing engineers. ITCA retains its core focus on mentoring with the objective of creating win-win benefits for both the mentor and mentee.</p>
-    <div className="flex justify-center mt-2 bg-green mb-2">
-    <Link to='/mentoring'>
-   <button className="bg-skyblue py-2 px-4 rounded-lg ">Learn More</button>
-   </Link>
-    </div>
+      <div className="lg:flex justify-center gap-4 text-white " data-aos="fade-up">
+      <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen ? 'h-auto' : 'h-24'}`}>
+        <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion}>
+          Vision
+        </h1>
+        {isOpen && (
+          <p className="mt-2 " data-aos="fade-down">
+            "Empowering citizens with a technology-centric ethos, catalyzing profound societal and national advancement."
+          </p>
+        )}
+      </div>
+      <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen1 ? 'h-auto' : 'h-24'}`}>
+        <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion1}>
+          Mission
+        </h1>
+        {isOpen1 && (
+          <p className="mt-2" data-aos="fade-down">
+            "Through collaborative endeavors, we strive to empower the advancement of technology-centric initiatives, creating a dynamic societal landscape where every citizen embraces technology as a catalyst for positive change. In doing so, we aim to foster an ongoing journey of evolution towards collective well-being."
+          </p>
+        )}
+      </div>
+      <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen2 ? 'h-auto' : 'h-24'}`}>
+        <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion2}>
+          Governance
+        </h1>
+        {isOpen2 && (
+          <p className="mt-2" data-aos="fade-down">
+            "ITCA has renowned and senior leaders from multiple engineering disciplines with globally recognized contributions to industry, academia, and research organizations."
+          </p>
+        )}
+      </div>
+      <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen3 ? 'h-auto' : 'h-24'}`}>
+        <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion3}>
+        Heritage
+        </h1>
+        {isOpen3 && (
+          <div>
+          <p className="mt-2" data-aos="fade-down">
+            "ITC over the last 18 years has attained international prominence as a unique platform fostering Industry-Academia-Research Labs-Policy Makers’ collaboration with the objective of capacity-building for global technological progress."
+          </p>
+            <Link to="/heritage" className="text-center">
+            <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
+              <p className="">Read more</p>
+              <span className="ml-1"><FaArrowRightLong /></span>
+            </div>
+          </Link>
+          </div>
+          
+        )}
+      </div>
+      <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2  ${isOpen4 ? 'h-auto' : 'h-24'}`}>
+        <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion4}>
+        Partnerships
+        </h1>
+        {isOpen4 && (
+          <div>
+          <p className="mt-2" data-aos="fade-down">
+            "ITCA has structured active and functional partnerships with global organizations to build synergy with leading institutions abroad to facilitate cross-pollination of ideas and create opportunities for collaboration. ITCA’s partnerships include:"
+          </p>
+            <Link to="/partnership" className="text-center">
+            <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white ">
+              <p className="">Read more</p>
+              <span className="ml-1"><FaArrowRightLong /></span>
+            </div>
+          </Link>
+          </div>
+        )}
+       
+      </div>
+      <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2  ${isOpen5 ? 'h-auto' : 'h-24'}`}>
+        <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion5}>
+        Future Directions
+        </h1>
+        {isOpen5 && (
+          <p className="mt-2" data-aos="fade-down">
+            "Coming Soon"
+          </p>
+        )}
+      </div>
+      <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2  ${isOpen6 ? 'h-auto' : 'h-24'}`}>
+        <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion6}>
+        Affiliations
+        </h1>
+        {isOpen6 && (
+          <p className="mt-2" data-aos="fade-down">
+            "Coming Soon"
+          </p>
+        )}
+      </div>
+      <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2  ${isOpen7 ? 'h-auto' : 'h-24'}`}>
+        <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion7}>
+        Ngo Darpan
+        </h1>
+        {isOpen7 && (
+          <div>
+          <p className="mt-2" data-aos="fade-down">
+            "ITCA has completed the registration on NITI-Aayog maintained platform for voluntary organizations to bring about greater partnership between government & voluntary sector and foster better transparency, efficiency."
+          </p>
+          <Link to="/ngo" className="text-center">
+      <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white ">
+        <p className="">Read more</p>
+        <span className="ml-1"><FaArrowRightLong /></span>
+      </div>
+    </Link>
+          </div>
+        )}
+      </div>
     
-  </div>
-  </div>
- 
-
-  <div className="flex flex-wrap justify-center bg-black text-white leading-8">
-<div className="w-full lg:w-1/2 md:w-1/2 sm:w-full lg:pt-12 p-4">
-    <h1 className="text-center p-4 text-2xl font-bold">Events</h1>
-    <p className="lg:text-center  text-justify lg:px-10">Conferences, seminars, meetings with experts, online courses, hackathons, international student exchange programmes, summer schools abroad and in India and meetings with ITCA leadership are among myriad events that are offered to members.</p>
-    <p className="lg:text-center  text-justify lg:px-10">These events are organized to facilitate enhancement of the engineering profession by active learning, networking, contributing, and collaborating with peers and engineering practitioners.</p>
-    <div className="flex justify-center mt-2 bg-green mb-2">
-    <Link to='/event'>
-   <button className="bg-skyblue py-2 px-4 rounded-lg ">Learn More</button>
-   </Link>
     </div>
-  </div>
-  <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full ">
-    <img src={imgment4} alt="satellite"  data-aos="fade-left" onClick={() => handleImageClick(imgment2)}/>
-  </div>
-  </div>
-
-
-  <div className="flex flex-wrap justify-center bg-black text-white leading-8">
-<div className="w-full lg:w-1/2 md:w-1/2 sm:w-full ">
-    <img src={imgment3} alt="satellite" className="mx-auto" data-aos="fade-right" onClick={() => handleImageClick(imgment1)}/>
-  </div>
-<div className="w-full lg:w-1/2 md:w-1/2 sm:w-full  lg:pt-16">
-    <h1 className="text-center p-4 text-2xl  font-bold">Startup Incubation</h1>
-    <p className="lg:text-center  text-justify lg:px-10 px-4">ITCA has set up an incubation hub and facilitates start-up organizations and entrepreneurs to access financing options based on their requirements. Start-ups and entrepreneurs can work with ITCA's Fellows and Members to sharpen and refine their business ideas and enhance success rates.</p>
-    <div className="flex justify-center mt-2 bg-green mb-2">
-    <Link to='/incubation'>
-   <button className="bg-skyblue py-2 px-4 rounded-lg">Learn More</button>
-   </Link>
-    </div>
-    
-  </div>
-  </div>
-
-
- 
-
-
-<div className="flex flex-wrap justify-center bg-black text-white leading-8">
-<div className="w-full lg:w-1/2 md:w-1/2 sm:w-full lg:pt-24 lg:px-10" data-aos="fade-right">
-    <h1 className="text-center p-4 text-5xl  font-bold">Sustainable Development Goals</h1>
-    <p className="lg:text-center  text-justifyr p-4 ">The United Nations, involving more than 190 Member States, has developed the 2030 Agenda for Sustainable Development in order to address these challenges in the form of 17 Sustainable Development Goals (SDGs) with 169 associated specific targets. Space science, technology and satellites have the potential to contribute to the Sustainable Development Goals. Critical technologies of the 21st century including information technology, modern communication, global positioning systems, satellite television, weather forecasting and remote sensing all rely on space science and technology.</p>
-    <div className="flex justify-center mt-2 bg-green mb-4">
-    <Link to='/sustainable'>
-   <button className="bg-skyblue py-2 px-4 rounded-lg">Learn More</button>
-   </Link>
-    </div>
-  </div>
-  <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full ">
-    <img src={imgsub} alt="satellite" className="" data-aos="fade-left" onClick={() => handleImageClick(imgsub)} />
-  </div> 
-</div>
-<Oureventcar/>
-<div className="flex flex-wrap justify-center bg-black text-white leading-8">
-<div className="w-full lg:w-1/2 md:w-1/2 sm:w-full lg:pt-12 p-4">
-    <h1 className="text-center p-4  text-2xl font-bold">Get Associated</h1>
-    <p className="lg:text-center  text-justify lg:px-10 py-2">If you are interested in engineering, technology and how they can address present day challenges, ITCA is the right organization to associate with. ITCA empowers you to pursue your vision with confidence. Now matter the idea, we are there with you, all the way in your journey from concept to product.</p>
-  
-    <div className="flex justify-center mt-2 bg-green mb-2">
-    <Link to='/associate'>
-   <button className="bg-skyblue py-2 px-4 rounded-lg ">Learn More</button>
-   </Link>
-    </div>
-  </div>
-  <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full " data-aos="fade-left">
-    <img src={imgment2} alt="satellite" className="mx-auto"  onClick={() => handleImageClick(imgment2)}/>
-  </div>
-  </div>
-  <div className="flex flex-wrap justify-center bg-black text-white leading-8">
-<div className="w-full lg:w-1/2 md:w-1/2 sm:w-full ">
-    <img src={imgment5} alt="satellite" className="mx-auto" data-aos="fade-right" onClick={() => handleImageClick(imgment1)}/>
-  </div>
-<div className="w-full lg:w-1/2 md:w-1/2 sm:w-full  lg:pt-16">
-    <h1 className="text-center p-4 text-2xl  font-bold">Boards and Committees</h1>
-    <p className="lg:text-center  text-justify lg:px-10 py-2 px-4">ITCA has built linkages with State Governments in various states and is being approached for recommendations on policy. Should you been keen to participate in these initiatives of strengthening public policy, you could share your interest areas and profile with the Secretariat</p>
-    <div className="flex justify-center mt-2 bg-green mb-2">
-    <Link to='/boards'>
-   <button className="bg-skyblue py-2 px-4 rounded-lg ">Learn More</button>
-   </Link>
-    </div>
-    
-  </div>
-  </div>
-
-
-  <div className="flex flex-wrap justify-center bg-black text-white leading-8">
-<div className="w-full lg:w-1/2 md:w-1/2 sm:w-full lg:pt-12 p-4">
-    <h1 className="text-center p-4 text-2xl font-bold">Specialist Groups</h1>
-    <p className="lg:text-center  text-justify lg:px-10 py-2 ">Specialist groups are a collaborative community of professionals working in one area. Participation in a specialist group helps deepen one's involvement and showcases skills and expertise level. Currenly, ITCA has an active specialist group focued on SpaceTech. We are in the process of adding multiple specialist groups</p>
-  
-    <div className="flex justify-center mt-2 bg-green mb-2">
-    <Link to='/specialist'>
-   <button className="bg-skyblue py-2 px-4 rounded-lg ">Learn More</button>
-   </Link>
-    </div>
-  </div>
-  <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full ">
-    <img src={imgment6} alt="satellite" className="mx-auto" data-aos="fade-left" onClick={() => handleImageClick(imgment2)}/>
-  </div>
-  </div>
-  <div className="flex flex-wrap justify-center bg-black text-white leading-8">
-<div className="w-full lg:w-1/2 md:w-1/2 sm:w-full ">
-    <img src={imgment7} alt="satellite" className="mx-auto" data-aos="fade-right" onClick={() => handleImageClick(imgment1)}/>
-  </div>
-<div className="w-full lg:w-1/2 md:w-1/2 sm:w-full  lg:pt-16">
-    <h1 className="text-center p-4 text-2xl  font-bold">History</h1>
-    <p className="lg:text-center  text-justify p-4 ">TC over the last 18 years has attained international prominence as a unique platform fostering Industry-Academia-Research Labs-Policy Makers’ collaboration with the objective of capacity-building for global technological progress.</p>
-    <div className="flex justify-center mt-2 bg-green mb-2">
-    <Link to='/heritage'>
-   <button className="bg-skyblue py-2 px-4 rounded-lg ">Learn More</button>
-   </Link>
-    </div>
-    
-  </div>
-  </div>
-
-
-  <div className="flex flex-wrap justify-center bg-black text-white leading-8">
-<div className="w-full lg:w-1/2 md:w-1/2 sm:w-full lg:pt-12 p-4">
-    <h1 className="text-center p-4 text-2xl font-bold">Partnerships</h1>
-    <p className="lg:text-center  text-justify lg:px-10 py-2 ">TCA has structured active and functional partnerships with global organizations to build synergy with leading institutions abroad to facilitate cross-pollination of ideas and create opportunities for collaboration.</p>
-  
-    <div className="flex justify-center mt-2 bg-green mb-2">
-    <Link to='/partnership'>
-   <button className="bg-skyblue py-2 px-4 rounded-lg ">Learn More</button>
-   </Link>
-    </div>
-  </div>
-  <div className="w-full lg:w-1/2 md:w-1/2 sm:w-full ">
-    <img src={imgment8} alt="satellite" className="mx-auto" data-aos="fade-left" onClick={() => handleImageClick(imgment2)}/>
-  </div>
-  </div>
-
-
-
-
-
-
-
-<div className="bg-black lg:py-9"><h1 className="text-center text-white py-4  text-4xl font-bold">In Synergy With</h1>
-<div className="container mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 py-9  lg:px-40 px-9" data-aos="zoom-in">
-
-<div class="bg-white h-28  flex justify-center items-center">
-    <img src={img1} alt="imagelogo" class="lg:max-w-full p-2 max-h-full" onClick={() => handleImageClick(img1)} />
-</div>
- 
-   <div class="bg-white h-28 flex justify-center items-center">
-    <img src={img2} alt="imagelogo" class="lg:max-w-full p-2 max-h-full" onClick={() => handleImageClick(img2)}/>
-  </div>
-
-  <div class="bg-white h-28 flex justify-center items-center">
-  <img src={img3} alt="imagelogo" class="lg:max-w-full p-2 max-h-full" onClick={() => handleImageClick(img3)}/>
-</div>
-   <div class="bg-white h-28 flex justify-center items-center">
-  <img src={img4} alt="imagelogo" class="lg:max-w-full p-2 max-h-full" onClick={() => handleImageClick(img4)}/>
-  </div>
-  
-   <div class="bg-white h-28 flex justify-center items-center">
-  <img src={img5} alt="imagelogo" class="lg:max-w-full p-2 max-h-full" onClick={() => handleImageClick(img5)} />
-  </div>
-   <div class="bg-white h-28 flex justify-center items-center">
-  <img src={img6} alt="imagelogo" class="lg:max-w-full p-2 max-h-full" onClick={() => handleImageClick(img6)}/>
-  </div>
-   <div class="bg-white h-28 flex justify-center items-center">
-  <img src={img7} alt="imagelogo" class="lg:max-w-full p-2 max-h-full" onClick={() => handleImageClick(img7)}/>
-  </div>
-   <div class="bg-white h-28 flex justify-center items-center">
-  <img src={img8} alt="imagelogo" class="lg:max-w-full p-2 max-h-full"onClick={() => handleImageClick(img8)} />
-  </div>
-   <div class="bg-white h-28 flex justify-center items-center">
-  <img src={img9} alt="imagelogo" class="lg:max-w-full p-2 max-h-full" onClick={() => handleImageClick(img9)}/>
-  </div>
-   <div class="bg-white h-28 flex justify-center items-center">
-  <img src={img10} alt="imagelogo" class="lg:max-w-full p-2 max-h-full" onClick={() => handleImageClick(img10)}/>
-  </div>
-   <div class="bg-white h-28 flex justify-center items-center">
-  <img src={img11} alt="imagelogo" class="lg:max-w-full p-2 max-h-full" onClick={() => handleImageClick(img11)}/>
-  </div>
-   <div class="bg-white h-28 flex justify-center items-center">
-  <img src={img12} alt="imagelogo" class="lg:max-w-full p-2 max-h-full" onClick={() => handleImageClick(img12)}/>
-  </div>
-
-  <div class="bg-white h-28 flex justify-center items-center">
-  <img src={img13} alt="imagelogo" class="lg:max-w-full p-2 max-h-full" onClick={() => handleImageClick(img13)}/>
-  </div>
-  <div class="bg-white h-28 flex justify-center items-center">
-  <img src={img14} alt="imagelogo" class="lg:max-w-full p-2 max-h-full" onClick={() => handleImageClick(img14)}/>
-  </div>
-  <div class="bg-white h-28 flex justify-center items-center">
-  <img src={img15} alt="imagelogo" class="lg:max-w-full p-2 max-h-full" onClick={() => handleImageClick(img15)}/>
-  </div>
-  <div class="bg-white h-28 flex justify-center items-center">
-  <img src={img16} alt="imagelogo" class="lg:max-w-full p-2 max-h-full" onClick={() => handleImageClick(img16)}/>
-  </div>
-  <div class="bg-white h-28 flex justify-center items-center">
-  <img src={img17} alt="imagelogo" class="lg:max-w-full p-2 max-h-full" onClick={() => handleImageClick(img17)}/>
-  </div>
-  <div class="bg-white h-28 flex justify-center items-center">
-  <img src={img18} alt="imagelogo" class="lg:max-w-full p-2 max-h-full" onClick={() => handleImageClick(img18)}/>
-  </div>
-  <div class="bg-white h-28 flex justify-center items-center">
-  <img src={img19} alt="imagelogo" class="lg:max-w-full p-2 max-h-full" onClick={() => handleImageClick(img19)} />
-  </div>
-  <div class="bg-white h-28 flex justify-center items-center">
-  <img src={img20} alt="imagelogo" class="lg:max-w-full p-2 max-h-full" onClick={() => handleImageClick(img20)}/>
-  </div>
-  <div class="bg-white h-28 flex justify-center items-center">
-  <img src={img21} alt="imagelogo" class="lg:max-w-full p-2 max-h-full" onClick={() => handleImageClick(img21)}/>
-  </div>
-  <div class="bg-white h-28 flex justify-center items-center">
-  <img src={img22} alt="imagelogo" class="lg:max-w-full p-2 max-h-full" onClick={() => handleImageClick(img22)}/>
-  </div>
-  <div class="bg-white h-28 flex justify-center items-center">
-  <img src={img23} alt="imagelogo" class="lg:max-w-full p-2 max-h-full" onClick={() => handleImageClick(img23)}/>
-  </div>
-  <div class="bg-white h-28 flex justify-center items-center">
-  <img src={img24} alt="imagelogo" class="lg:max-w-full p-2 max-h-full" onClick={() => handleImageClick(img24)} />
-  </div>
-  <div class="bg-white h-28 flex justify-center items-center">
-  <img src={img25} alt="imagelogo" class="lg:max-w-full p-2 max-h-full" onClick={() => handleImageClick(img25)} />
-  </div>
-  <div class="bg-white h-28 flex justify-center items-center">
-  <img src={img26} alt="imagelogo" class="lg:max-w-full p-2 max-h-full" onClick={() => handleImageClick(img26)}/>
-  </div>
-  <div class="bg-white h-28 flex justify-center items-center">
-  <img src={img27} alt="imagelogo" class="lg:max-w-full p-2 max-h-full" onClick={() => handleImageClick(img27)}/>
-  </div>
-  <div class="bg-white h-28 flex justify-center items-center">
-  <img src={img28} alt="imagelogo" class="lg:max-w-full p-2 max-h-full" onClick={() => handleImageClick(img28)}/>
-  </div>
-  <div class="bg-white h-28 flex justify-center items-center">
-  <img src={img29} alt="imagelogo" class="lg:max-w-full p-2 max-h-full"onClick={() => handleImageClick(img29)} />
-  </div>
-  </div>
- 
-  
-  
-  
-  
-</div>
-{selectedImage && (
-      <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex justify-center items-center z-50" onClick={() => setSelectedImage(null)}>
-      <div className="absolute inset-0 flex justify-center items-center">
-        <img src={selectedImage} alt="Selected Image" className="max-w-full max-h-full" />
+    <div className='bg-aboutus bg-cover bg-center h-72 flex lg:px-28 items-center ' data-aos="fade-down">
+      <div className="">
+        <h1 className='text-white py-2 text-6xl'>Events</h1>
+        <p className='text-white text-xl'>Conferences, seminars, meetings with experts, online courses, hackathons, </p>
+        <p className='text-white text-xl'> international student exchange programmes,  summer schools abroad and</p>
+         <p className='text-white text-xl'> in India and meetings with ITCA leadership are among myriad events that are offered to members.</p>
+         <Link to='/eventinfo'>
+ <button className="bg-skyblue py-2 px-4 rounded-lg text-white mt-4 ">Learn More</button>
+ </Link>
       </div>
     </div>
-      )}
 
+    <div className="lg:flex justify-center gap-4 text-white " data-aos="fade-up">
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0   ${isOpen8 ? 'h-auto' : 'h-24'}`}>
+      <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion8}>
+      Congress
+      </h1>
+      {isOpen8 && (
+         <div>
+         <p className="mt-2" data-aos="fade-down">
+           "Indian Technology Congress (ITC) is a flagship event of the Indian Technology Congress Association (ITCA), a dedicated Association for Technologists "
+         </p>
+           <Link to="/congress" className="text-center">
+           <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
+             <p className="">Read more</p>
+             <span className="ml-1"><FaArrowRightLong /></span>
+           </div>
+         </Link>
+         </div>
+      )}
+    </div>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0  ${isOpen9 ? 'h-auto' : 'h-24'}`}>
+      <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion9}>
+      Webinars
+      </h1>
+      {isOpen9 && (
+       <div>
+       <p className="mt-2" data-aos="fade-down">
+         "ITCA offers webinars and live seminars to apprise students, faculty and technology aficionados on aspects of CubeSat technology to assist students and faculty, "
+       </p>
+         <Link to="/webinar" className="text-center">
+         <div className="flex mb-0 items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
+           <p className="">Read more</p>
+           <span className="ml-1"><FaArrowRightLong /></span>
+         </div>
+       </Link>
+       </div>
+      )}
+    </div>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center    ${isOpen10 ? 'h-auto' : 'h-24'}`}>
+      <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion10}>
+      Masterclass
+      </h1>
+      {isOpen10 && (
+        <p className="mt-2" data-aos="fade-down">
+          "Coming Soon"
+        </p>
+      )}
+    </div>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0  ${isOpen11 ? 'h-auto' : 'h-24'}`}>
+      <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion11}>
+      Past Events
+      </h1>
+      {isOpen11 && (
+        <div>
+        <p className="mt-2" data-aos="fade-down">
+          "ITC-2021, the 9th edition of Indian Technology Congress, was unique in that it facilitated exploring space technologies for sustainable development.  "
+        </p>
+          <Link to="/pastevent" className="text-center">
+          <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
+            <p className="">Read more</p>
+            <span className="ml-1"><FaArrowRightLong /></span>
+          </div>
+        </Link>
+        </div>
+        
+      )}
+    </div>
+  
+  
+  </div>
+
+  <div class='bg-dev bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down">
+  <div class="text-center">
+    <h1 class='text-white py-2 text-6xl'>Professional Development</h1>
+  
+  </div>
+</div>
+
+    <div className="lg:flex justify-center gap-4 text-white " data-aos="fade-up">
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0  ${isOpen12 ? 'h-auto' : 'h-24'}`}>
+      <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion12}>
+      Incubation
+      </h1>
+      {isOpen12 && (
+         <div>
+         <p className="mt-2" data-aos="fade-down">
+           "ITCA has set up an incubation hub and facilitates start-up organizations and entrepreneurs to access financing options based on their requirements. "
+         </p>
+           <Link to="/incubation" className="text-center">
+           <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
+             <p className="">Read more</p>
+             <span className="ml-1"><FaArrowRightLong /></span>
+           </div>
+         </Link>
+         </div>
+      )}
+    </div>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen13 ? 'h-auto' : 'h-24'}`}>
+      <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion13}>
+      Educator
+      </h1>
+      {isOpen13 && (
+       <div>
+       <p className="mt-2" data-aos="fade-down">
+         "Mentoring Initiative is a member benefit for ITCA members seeking career guidance or advice from experienced professionals with diverse experience. "
+       </p>
+         <Link to="/educator" className="text-center">
+         <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
+           <p className="">Read more</p>
+           <span className="ml-1"><FaArrowRightLong /></span>
+         </div>
+       </Link>
+       </div>
+      )}
+    </div>
+   
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen14 ? 'h-auto' : 'h-24'}`}>
+      <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion14}>
+      Advisor
+      </h1>
+      {isOpen14 && (
+        <div>
+        <p className="mt-2" data-aos="fade-down">
+          "ITCA has constituted an Advisory Board of globally renowned space scientists to guide the ambitious 75 Students’ Satellites initiative. This board comprises of:"
+        </p>
+          <Link to="/advisor" className="text-center">
+          <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
+            <p className="">Read more</p>
+            <span className="ml-1"><FaArrowRightLong /></span>
+          </div>
+        </Link>
+        </div>
+        
+      )}
+    </div>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen15 ? 'h-auto' : 'h-24'}`}>
+      <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion15}>
+      Thought Leadership
+      </h1>
+      {isOpen15 && (
+        <div>
+        <p className="mt-2" data-aos="fade-down">
+          "Our members decipher industry trends and integrate the technological breakthroughs to develop mint-fresh innovations that form the basis of solutions. "
+        </p>
+          <Link to="/leadership" className="text-center">
+          <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
+            <p className="">Read more</p>
+            <span className="ml-1"><FaArrowRightLong /></span>
+          </div>
+        </Link>
+        </div>
+        
+      )}
+    </div>
+  
+  
+  </div>
+
+
+  <div class='bg-dev bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down">
+  <div class="text-center">
+    <h1 class='text-white py-2 text-6xl'>Membership</h1>
+
+  </div>
+</div>
+
+    <div className="lg:flex justify-around gap-4 text-white " data-aos="fade-up">
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0  ${isOpen16 ? 'h-auto' : 'h-24'}`}>
+      <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion16}>
+      Individual Membership
+      </h1>
+      {isOpen16 && (
+         <div>
+         <p className="mt-2" data-aos="fade-down">
+           "Technology's pervasive presence across our globe underscores its vast diversity, embodied by our esteemed Fellows who represent a rich spectrum within science, engineering, and technology. With passion, they tackle the most intricate challenges of every domain through this unique ITCA platform. Founder Fellows, pillars of this endeavor, bring forth a wealth of wisdom."
+         </p>
+           <Link to="/individual" className="text-center">
+           <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
+             <p className="">Read more</p>
+             <span className="ml-1"><FaArrowRightLong /></span>
+           </div>
+         </Link>
+         </div>
+      )}
+    </div>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen17 ? 'h-auto' : 'h-24'}`}>
+      <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion17}>
+      Institutional Memberships
+      </h1>
+      {isOpen17 && (
+       <div>
+       <p className="mt-2" data-aos="fade-down">
+         "The Institutional Members category welcomes associations, public, and private institutions engaged in fields aligned with the objectives of the ITCA. This includes academia, universities, research institutes, industrial entities, and professional organizations, both domestically and internationally, with a focused interest in technological advancements."
+       </p>
+         <Link to="/institutional" className="text-center">
+         <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
+           <p className="">Read more</p>
+           <span className="ml-1"><FaArrowRightLong /></span>
+         </div>
+       </Link>
+       </div>
+      )}
+    </div>
+   
+    
+  
+  
+  </div>
+
+  <div class='bg-dev bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down">
+  <div class="text-center">
+    <h1 class='text-white py-2 text-6xl'>Forums</h1>
+
+  </div>
+</div>
+
+    <div className="lg:flex justify-center gap-4 text-white " data-aos="fade-up">
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0  ${isOpen18 ? 'h-auto' : 'h-24'}`}>
+      <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion18}>
+    Space
+      </h1>
+      {isOpen18 && (
+         <div>
+         <p className="mt-2" data-aos="fade-down">
+           "Coming Soon "
+         </p>
+         
+         </div>
+      )}
+    </div>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen19 ? 'h-auto' : 'h-24'}`}>
+      <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion19}>
+      Agri Tech
+      </h1>
+      {isOpen19 && (
+       <div>
+       <p className="mt-2" data-aos="fade-down">
+         "AgriTech refers to the emerging opportunities for the Technology, products& services that supports Agricultural Domain to meet the needs of a projected 10 Billion global inhabitants by 2050. AgriTech Advisory Board brings together the distinguished expertise equally from the 'agricultural' domain as well as the 'technology' in all its dimensions."
+       </p>
+         <Link to="/educator" className="text-center">
+         <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
+           <p className="">Read more</p>
+           <span className="ml-1"><FaArrowRightLong /></span>
+         </div>
+       </Link>
+       </div>
+      )}
+    </div>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0  ${isOpen20 ? 'h-auto' : 'h-24'}`}>
+      <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion20}>
+      Industry 4.0
+      </h1>
+      {isOpen20 && (
+         <div>
+         <p className="mt-2" data-aos="fade-down">
+           "Coming Soon "
+         </p>
+         
+         </div>
+      )}
+    </div>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0  ${isOpen21 ? 'h-auto' : 'h-24'}`}>
+      <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion21}>
+      System
+      </h1>
+      {isOpen21 && (
+         <div>
+         <p className="mt-2" data-aos="fade-down">
+           "Coming Soon "
+         </p>
+         
+         </div>
+      )}
+    </div>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 ${isOpen22 ? 'h-auto' : 'h-24'}`}>
+      <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion22}>
+      Temple Engineering
+      </h1>
+      {isOpen22 && (
+        <div>
+        <p className="mt-2" data-aos="fade-down">
+          "Whispers in Heritage Decoding the Symbolic Temple Engineering Ancient innovators defied gravity and time, crafting structures of beauty and engineering prowess. Temple engineering, a blend of art and science, holds forgotten knowledge within the sands of time. Modern technology now seeks to unlock these secrets, using algorithms to reveal ."
+        </p>
+          <Link to="/advisor" className="text-center">
+          <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
+            <p className="">Read more</p>
+            <span className="ml-1"><FaArrowRightLong /></span>
+          </div>
+        </Link>
+        </div>
+        
+      )}
+    </div>
+  
+  
+  
+  </div>
+
+
+
+  <div class='bg-dev bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down">
+  <div class="text-center">
+    <h1 class='text-white py-2 text-6xl'>Publication</h1>
+
+  </div>
+</div>
+
+    <div className="lg:flex justify-center gap-4 text-white " data-aos="fade-up">
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0  ${isOpen23 ? 'h-auto' : 'h-24'}`}>
+      <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion23}>
+      Tips
+      </h1>
+      {isOpen23 && (
+         <div>
+         <p className="mt-2" data-aos="fade-down">
+           "Coming Soon "
+         </p>
+         
+         </div>
+      )}
+    </div>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0  ${isOpen24 ? 'h-auto' : 'h-24'}`}>
+      <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion24}>
+      Update
+      </h1>
+      {isOpen24 && (
+         <div>
+         <p className="mt-2" data-aos="fade-down">
+           "Coming Soon "
+         </p>
+         
+         </div>
+      )}
+    </div>
+    
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0  ${isOpen25 ? 'h-auto' : 'h-24'}`}>
+      <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion25}>
+      Report
+      </h1>
+      {isOpen25 && (
+         <div>
+         <p className="mt-2" data-aos="fade-down">
+           "Coming Soon "
+         </p>
+         
+         </div>
+      )}
+    </div>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0  ${isOpen26 ? 'h-auto' : 'h-24'}`}>
+      <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion26}>
+      News
+      </h1>
+      {isOpen26 && (
+         <div>
+         <p className="mt-2" data-aos="fade-down">
+           "Coming Soon "
+         </p>
+         
+         </div>
+      )}
+    </div>
+    
+  
+  
+  
+  </div>
+
+
+
+
+
+  
     </>
   );
 };

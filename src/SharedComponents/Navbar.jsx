@@ -63,7 +63,7 @@ const Navbar = () => {
               </li>
               <li className="relative group">
                 <div className="block px-4 py-2 text-white dropdown-container hover:rounded-md hover:bg-gray-800 hover:text-white font-bold">
-                About Us
+                About
                   <div
                     className="absolute left-0 z-50 invisible  py-2 bg-white border-gray-300 rounded shadow-lg top-10 group-hover:visible text-sm"
                     style={{ width: "18rem" }}

@@ -168,7 +168,7 @@ const Aboutus = () => {
         {isOpen7 && (
           <div>
           <p className="mt-2" data-aos="fade-down">
-            "ITCA has completed the registration on NITI-Aayog maintained platform for voluntary organizations to bring about greater partnership between government "
+            "ITCA has completed the registration on NITI-Aayog maintained platform for voluntary organizations to bring about greater partnership between government & voluntary sector and foster better transparency, efficiency. "
           </p>
           <Link to="/ngo" className="text-center">
       <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white ">

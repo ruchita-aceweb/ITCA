@@ -49,6 +49,7 @@ export const theme = {
       'goal':"url('/src/Images/Banner/goalbanner.jpg')",
       'event':"url('/src/Images/Banner/webinarbanner.jpg')",
       'dev':"url('/src/Images/Banner/devbanner.jpg')",
+      'homeabout':"url('/src/Images/Banner/homebanner.jpg')",
     
     }
   },
