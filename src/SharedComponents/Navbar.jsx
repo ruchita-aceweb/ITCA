@@ -62,26 +62,41 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li className="relative group">
-                <div className="block px-4 py-2 text-white dropdown-container hover:rounded-md hover:bg-gray-800 hover:text-white font-bold">
-                About
-                  <div
-                    className="absolute left-0 z-50 invisible  py-2 bg-white border-gray-300 rounded shadow-lg top-10 group-hover:visible text-sm"
-                    style={{ width: "18rem" }}
-                  >
-                    {aboutusdata.map((items, index) => (
-                      <div className="px-4 py-2 " key={index}>
-                        <NavLink
-                          to={items.link}
-                          className="p-2 text-black no-underline font-bold hover:rounded-md hover:bg-gray-800 hover:text-white"
-                          onClick={handleLinkClick}
-                        >
-                          {items.title}
-                        </NavLink>
-                      </div>
-                    ))}
-                  </div>
+    <div className="block px-4 py-2 text-white dropdown-container hover:rounded-md hover:bg-gray-800 hover:text-white font-bold">
+        About
+        <div
+            className="absolute left-0 z-50 invisible py-2 bg-white border-gray-300 rounded shadow-lg top-10 group-hover:visible text-sm"
+            style={{ width: "18rem" }}
+        >
+            {aboutusdata.map((item, index) => (
+                <div className="px-4 py-2" key={index}>
+                    <NavLink
+                        to={item.link}
+                        className="p-2 text-black no-underline font-bold hover:rounded-md hover:bg-gray-800 hover:text-white"
+                        onClick={handleLinkClick}
+                    >
+                        {item.title}
+                    </NavLink>
+               
+                    {item.subItems && (
+                        <div className="mt-2 ml-4">
+                            {item.subItems.map((subItem, subIndex) => (
+                                <NavLink
+                                    to={subItem.link}
+                                    className="p-2  text-black no-underline font-bold hover:rounded-md hover:bg-gray-800 hover:text-white ml-4"
+                                    onClick={handleLinkClick}
+                                    key={subIndex}
+                                >
+                                    {subItem.title}
+                                </NavLink>
+                            ))}
+                        </div>
+                    )}
                 </div>
-              </li>
+            ))}
+        </div>
+    </div>
+</li>
 
               <li className="relative group">
                 <div className="block px-4 py-2 text-white dropdown-container hover:rounded-md hover:bg-gray-800 hover:text-white font-bold">
