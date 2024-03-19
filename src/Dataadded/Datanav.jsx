@@ -19,13 +19,16 @@ export const aboutusdata =[
         link:'/contact'
     },
     {
-        title:'Affiliations',
-        link:'/strategy'
+        title: 'Affiliations',
+        link: '/strategy',
+        subItems: [ // Adding sub-items for Affiliations
+            {
+                title: 'Ngo Darpan',
+                link: '/ngo'
+            }
+        ]
     },
-    {
-        title:'Ngo Darpan',
-        link:'/ngo'
-    }
+    
    
 ]
 
