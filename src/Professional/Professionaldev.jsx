@@ -46,7 +46,7 @@ useEffect(() => {
 </div>
 
     <div className="lg:flex justify-center gap-4 text-white mb-4" data-aos="fade-up">
-    <div className={`w-full lg:w-1/4 p-4 bg-events text-center  lg:m-0 mb-2 lg:rounded-bl-lg lg:rounded-br-lg ${isOpen ? 'h-auto' : 'h-24'}`}>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 lg:rounded-bl-lg lg:rounded-br-lg ${isOpen ? 'h-auto' : 'h-24'}`}>
       <h1 className="text-2xl cursor-pointer mt-2" onClick={toggleAccordion}>
       Incubation
       </h1>
@@ -64,7 +64,7 @@ useEffect(() => {
          </div>
       )}
     </div>
-    <div className={`w-full lg:w-1/4 p-4 bg-events text-center  lg:m-0 mb-2 lg:rounded-bl-lg lg:rounded-br-lg ${isOpen1 ? 'h-auto' : 'h-24'}`}>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 lg:rounded-bl-lg lg:rounded-br-lg ${isOpen1 ? 'h-auto' : 'h-24'}`}>
       <h1 className="text-2xl cursor-pointer mt-2" onClick={toggleAccordion1}>
       Educator
       </h1>
@@ -83,7 +83,7 @@ useEffect(() => {
       )}
     </div>
    
-    <div className={`w-full lg:w-1/4 p-4 bg-events text-center  lg:m-0 mb-2 lg:rounded-bl-lg lg:rounded-br-lg ${isOpen2 ? 'h-auto' : 'h-24'}`}>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 lg:rounded-bl-lg lg:rounded-br-lg ${isOpen2 ? 'h-auto' : 'h-24'}`}>
       <h1 className="text-2xl cursor-pointer mt-2" onClick={toggleAccordion2}>
       Advisor
       </h1>
@@ -102,14 +102,14 @@ useEffect(() => {
         
       )}
     </div>
-    <div className={`w-full lg:w-1/4 p-4 bg-events text-center  lg:m-0 mb-2 lg:rounded-bl-lg lg:rounded-br-lg ${isOpen3 ? 'h-auto' : 'h-24'}`}>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 lg:rounded-bl-lg lg:rounded-br-lg ${isOpen3 ? 'h-auto' : 'h-24'}`}>
       <h1 className="text-2xl cursor-pointer mt-2" onClick={toggleAccordion3}>
       Thought Leadership
       </h1>
       {isOpen3 && (
         <div>
         <p className="mt-2" data-aos="fade-down">
-          "Our members decipher industry trends and integrate the technological breakthroughs to develop mint-fresh innovations that form the basis of solutions for contemporary society and business needs. "
+          "Our members decipher industry trends and integrate the technological breakthroughs to develop mint-fresh innovations that form the basis of solutions for contemporary . "
         </p>
           <Link to="/leadership" className="text-center">
           <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">

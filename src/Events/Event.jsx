@@ -52,14 +52,14 @@ useEffect(() => {
     </div>
 
     <div className="lg:flex justify-center gap-4 text-white mb-4" data-aos="fade-up">
-    <div className={`w-full lg:w-1/4 p-4 bg-events text-center  lg:m-0 mb-2 lg:rounded-bl-lg lg:rounded-br-lg ${isOpen ? 'h-auto' : 'h-24'}`}>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 lg:rounded-bl-lg lg:rounded-br-lg ${isOpen ? 'h-auto' : 'h-24'}`}>
       <h1 className="text-2xl cursor-pointer mt-2" onClick={toggleAccordion}>
       Congress
       </h1>
       {isOpen && (
          <div>
          <p className="mt-2" data-aos="fade-down">
-           "Indian Technology Congress (ITC) is a flagship event of the Indian Technology Congress Association (ITCA), a dedicated Association for Technologists focused on facilitating collaboration between Professionals from the industry"
+           "Indian Technology Congress (ITC) is a flagship event of the Indian Technology Congress Association (ITCA), a dedicated Association for Technologists "
          </p>
            <Link to="/congress" className="text-center">
            <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
@@ -70,14 +70,14 @@ useEffect(() => {
          </div>
       )}
     </div>
-    <div className={`w-full lg:w-1/4 p-4 bg-events text-center  lg:m-0 mb-2 lg:rounded-bl-lg lg:rounded-br-lg ${isOpen1 ? 'h-auto' : 'h-24'}`}>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 lg:rounded-bl-lg lg:rounded-br-lg ${isOpen1 ? 'h-auto' : 'h-24'}`}>
       <h1 className="text-2xl cursor-pointer mt-2" onClick={toggleAccordion1}>
       Webinars
       </h1>
       {isOpen1 && (
        <div>
        <p className="mt-2" data-aos="fade-down">
-         "ITCA offers webinars and live seminars to apprise students, faculty and technology aficionados on aspects of CubeSat technology to assist students and faculty/teachers in universities, "
+         "ITCA offers webinars and live seminars to apprise students, faculty and technology aficionados on aspects of CubeSat technology to assist students and faculty, "
        </p>
          <Link to="/webinar" className="text-center">
          <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
@@ -88,7 +88,7 @@ useEffect(() => {
        </div>
       )}
     </div>
-    <div className={`w-full lg:w-1/4 p-4 bg-events text-center  lg:m-0 mb-2 lg:rounded-bl-lg lg:rounded-br-lg ${isOpen2 ? 'h-auto' : 'h-24'}`}>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 lg:rounded-bl-lg lg:rounded-br-lg ${isOpen2 ? 'h-auto' : 'h-24'}`}>
       <h1 className="text-2xl cursor-pointer mt-2" onClick={toggleAccordion2}>
       Masterclass
       </h1>
@@ -98,14 +98,14 @@ useEffect(() => {
         </p>
       )}
     </div>
-    <div className={`w-full lg:w-1/4 p-4 bg-events text-center  lg:m-0 mb-2 lg:rounded-bl-lg lg:rounded-br-lg ${isOpen3 ? 'h-auto' : 'h-24'}`}>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 lg:rounded-bl-lg lg:rounded-br-lg ${isOpen3 ? 'h-auto' : 'h-24'}`}>
       <h1 className="text-2xl cursor-pointer mt-2" onClick={toggleAccordion3}>
       Past Events
       </h1>
       {isOpen3 && (
         <div>
         <p className="mt-2" data-aos="fade-down">
-          "ITC-2021, the 9th edition of Indian Technology Congress, was unique in that it facilitated exploring space technologies for sustainable development, sustainable design paradigms for student-built satellites and nanosatellites. Space Technology Gurus, Subject Matter Experts and 'Techpreneurs' shared their vision on contemporary technologies and how these are likely to influence our way of life. "
+          "ITC-2021, the 9th edition of Indian Technology Congress, was unique in that it facilitated exploring space technologies for sustainable development. "
         </p>
           <Link to="/pastevent" className="text-center">
           <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
