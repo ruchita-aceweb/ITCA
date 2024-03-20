@@ -45,15 +45,15 @@ useEffect(() => {
   </div>
 </div>
 
-    <div className="lg:flex justify-center gap-4 text-white mb-4" data-aos="fade-up">
-    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 lg:rounded-bl-lg lg:rounded-br-lg ${isOpen ? 'h-auto' : 'h-24'}`}>
-      <h1 className="text-2xl cursor-pointer mt-2" onClick={toggleAccordion}>
+<div className="lg:flex justify-center gap-4 text-white " >
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen ? 'h-auto' : 'h-24'}`}>
+      <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion}>
       Incubation
       </h1>
       {isOpen && (
          <div>
          <p className="mt-2" data-aos="fade-down">
-           "ITCA has set up an incubation hub and facilitates start-up organizations and entrepreneurs to access financing options based on their requirements. "
+           "ITCA has set up an incubation hub and facilitates start-up organizations and entrepreneurs to access financing options based on their. "
          </p>
            <Link to="/incubation" className="text-center">
            <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
@@ -64,14 +64,14 @@ useEffect(() => {
          </div>
       )}
     </div>
-    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 lg:rounded-bl-lg lg:rounded-br-lg ${isOpen1 ? 'h-auto' : 'h-24'}`}>
-      <h1 className="text-2xl cursor-pointer mt-2" onClick={toggleAccordion1}>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen1 ? 'h-auto' : 'h-24'}`}>
+      <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion1}>
       Educator
       </h1>
       {isOpen1 && (
        <div>
        <p className="mt-2" data-aos="fade-down">
-         "Mentoring Initiative is a member benefit for ITCA members seeking career guidance or advice from experienced professionals with diverse experience to become contributing engineers."
+         "Mentoring Initiative is a member benefit for ITCA members seeking career guidance or advice from experienced professionals . "
        </p>
          <Link to="/educator" className="text-center">
          <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
@@ -83,14 +83,14 @@ useEffect(() => {
       )}
     </div>
    
-    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 lg:rounded-bl-lg lg:rounded-br-lg ${isOpen2 ? 'h-auto' : 'h-24'}`}>
-      <h1 className="text-2xl cursor-pointer mt-2" onClick={toggleAccordion2}>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen2 ? 'h-auto' : 'h-24'}`}>
+      <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion2}>
       Advisor
       </h1>
       {isOpen2 && (
         <div>
         <p className="mt-2" data-aos="fade-down">
-          "ITCA has constituted an Advisory Board of globally renowned space scientists to guide the ambitious 75 Students’ Satellites initiative. This board comprises of:"
+          "ITCA has constituted an Advisory Board of globally renowned space scientists to guide the ambitious 75 Students’ Satellites initiative."
         </p>
           <Link to="/advisor" className="text-center">
           <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
@@ -102,14 +102,14 @@ useEffect(() => {
         
       )}
     </div>
-    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 lg:rounded-bl-lg lg:rounded-br-lg ${isOpen3 ? 'h-auto' : 'h-24'}`}>
-      <h1 className="text-2xl cursor-pointer mt-2" onClick={toggleAccordion3}>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen3 ? 'h-auto' : 'h-24'}`}>
+      <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion3}>
       Thought Leadership
       </h1>
       {isOpen3 && (
         <div>
         <p className="mt-2" data-aos="fade-down">
-          "Our members decipher industry trends and integrate the technological breakthroughs to develop mint-fresh innovations that form the basis of solutions for contemporary . "
+          "Our members decipher industry trends and integrate the technological breakthroughs to develop mint-fresh innovations. "
         </p>
           <Link to="/leadership" className="text-center">
           <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">

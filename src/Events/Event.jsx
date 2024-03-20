@@ -52,7 +52,7 @@ useEffect(() => {
     </div>
 
     <div className="lg:flex justify-center gap-4 text-white mb-4" data-aos="fade-up">
-    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 lg:rounded-bl-lg lg:rounded-br-lg ${isOpen ? 'h-auto' : 'h-24'}`}>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2  ${isOpen ? 'h-auto' : 'h-24'}`}>
       <h1 className="text-2xl cursor-pointer mt-2" onClick={toggleAccordion}>
       Congress
       </h1>
@@ -70,7 +70,7 @@ useEffect(() => {
          </div>
       )}
     </div>
-    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 lg:rounded-bl-lg lg:rounded-br-lg ${isOpen1 ? 'h-auto' : 'h-24'}`}>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2  ${isOpen1 ? 'h-auto' : 'h-24'}`}>
       <h1 className="text-2xl cursor-pointer mt-2" onClick={toggleAccordion1}>
       Webinars
       </h1>
@@ -88,7 +88,7 @@ useEffect(() => {
        </div>
       )}
     </div>
-    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 lg:rounded-bl-lg lg:rounded-br-lg ${isOpen2 ? 'h-auto' : 'h-24'}`}>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2  ${isOpen2 ? 'h-auto' : 'h-24'}`}>
       <h1 className="text-2xl cursor-pointer mt-2" onClick={toggleAccordion2}>
       Masterclass
       </h1>
@@ -98,7 +98,7 @@ useEffect(() => {
         </p>
       )}
     </div>
-    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 lg:rounded-bl-lg lg:rounded-br-lg ${isOpen3 ? 'h-auto' : 'h-24'}`}>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2  ${isOpen3 ? 'h-auto' : 'h-24'}`}>
       <h1 className="text-2xl cursor-pointer mt-2" onClick={toggleAccordion3}>
       Past Events
       </h1>
