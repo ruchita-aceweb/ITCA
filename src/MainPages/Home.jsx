@@ -132,7 +132,7 @@ const Home = () => {
   return (
     <>
 
-<div className='bg-homeabout bg-cover bg-center h-[400px]  flex lg:px-28 items-center ' data-aos="fade-down" >
+<div className='bg-homeabout bg-cover bg-center homebanners  flex lg:px-28 items-center ' data-aos="fade-down" >
         <div className="p-4">
           <h1 className='text-white py-2 text-6xl'>About Us</h1>
           <p className='text-white text-xl'>Welcome to ITCA-we Encourage, Educate, Envision </p>
@@ -144,7 +144,7 @@ const Home = () => {
         </div>
       </div>
   
-      <div className="lg:flex justify-center gap-4 text-white " data-aos="fade-up">
+      <div className="lg:flex justify-center gap-4 text-white ">
       <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen ? 'h-auto' : 'h-24'}`}>
         <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion}>
           Vision
@@ -253,7 +253,7 @@ const Home = () => {
       </div>
     
     </div>
-    <div className='bg-homeevent bg-cover bg-center h-[450px]  flex lg:px-28 items-center ' data-aos="fade-down" >
+    <div className='bg-homeevent bg-cover bg-center homebanners  flex lg:px-28 items-center ' data-aos="fade-down" >
       <div className="p-4">
         <h1 className='text-white py-2 text-6xl'>Events</h1>
         <p className='text-white text-xl'>Conferences, seminars, meetings with experts, online courses, hackathons, </p>
@@ -335,7 +335,7 @@ const Home = () => {
   
   </div>
 
-  <div class='bg-homeprofession bg-cover bg-center h-[450px]  flex justify-center items-center' data-aos="fade-down" >
+  <div class='bg-homeprofession bg-cover bg-center homebanners  flex justify-center items-center' data-aos="fade-down" >
   <div class="text-center">
     <h1 class='text-white py-2 text-6xl'>Professional Development</h1>
   
@@ -423,7 +423,7 @@ const Home = () => {
   </div>
 
 
-  <div class='bg-homemember bg-cover bg-center h-[450px]  flex justify-center items-center' data-aos="fade-down" >
+  <div class='bg-homemember bg-cover bg-center homebanners  flex justify-center items-center' data-aos="fade-down" >
   <div class="text-center">
     <h1 class='text-white py-2 text-6xl'>Membership</h1>
 
@@ -473,7 +473,7 @@ const Home = () => {
   
   </div>
 
-  <div class='bg-homeforums bg-cover bg-center h-[450px]  flex justify-center items-center' data-aos="fade-down" >
+  <div class='bg-homeforums bg-cover bg-center homebanners  flex justify-center items-center' data-aos="fade-down" >
   <div class="text-center">
     <h1 class='text-white py-2 text-6xl'>Forums</h1>
 
@@ -564,7 +564,7 @@ const Home = () => {
 
 
 
-  <div class='bg-homepublication bg-cover bg-center h-[450px]  flex justify-center items-center' data-aos="fade-down" >
+  <div class='bg-homepublication bg-cover bg-center homebanners  flex justify-center items-center' data-aos="fade-down" >
   <div class="text-center">
     <h1 class='text-white py-2 text-6xl'>Publication</h1>
 
