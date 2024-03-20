@@ -132,8 +132,8 @@ const Home = () => {
   return (
     <>
 
-<div className='bg-homeabout bg-cover bg-center  flex lg:px-28 items-center ' data-aos="fade-down" style={{ height: '700px' }}>
-        <div className="">
+<div className='bg-homeabout bg-cover bg-center h-[400px]  flex lg:px-28 items-center ' data-aos="fade-down" >
+        <div className="p-4">
           <h1 className='text-white py-2 text-6xl'>About Us</h1>
           <p className='text-white text-xl'>Welcome to ITCA-we Encourage, Educate, Envision </p>
           <p className='text-white text-xl'>and Empower the engineering and technology fraternity</p>
@@ -175,24 +175,24 @@ const Home = () => {
           </p>
         )}
       </div>
-      <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen3 ? 'h-auto' : 'h-24'}`}>
+      <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2  ${isOpen3 ? 'h-auto' : 'h-24'}`}>
         <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion3}>
-        Heritage
+      Heritage
         </h1>
         {isOpen3 && (
           <div>
           <p className="mt-2" data-aos="fade-down">
-            "ITC over the last 18 years has attained international prominence as a unique platform ."
+          "ITC over the last 18 years has attained international prominence."
           </p>
-            <Link to="/heritage" className="text-center">
-            <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
+            <Link to="/partnership" className="text-center">
+            <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-2 rounded-lg text-white ">
               <p className="">Read more</p>
               <span className="ml-1"><FaArrowRightLong /></span>
             </div>
           </Link>
           </div>
-          
         )}
+       
       </div>
       <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2  ${isOpen4 ? 'h-auto' : 'h-24'}`}>
         <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion4}>
@@ -201,7 +201,7 @@ const Home = () => {
         {isOpen4 && (
           <div>
           <p className="mt-2" data-aos="fade-down">
-            "ITCA has structured active and functional partnerships with global organizations to build. "
+            "ITCA has structured active and functional partnerships with global . "
           </p>
             <Link to="/partnership" className="text-center">
             <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white ">
@@ -240,10 +240,10 @@ const Home = () => {
         {isOpen7 && (
           <div>
           <p className="mt-2" data-aos="fade-down">
-            "ITCA has completed the registration on NITI-Aayog maintained platform for voluntary ."
+            "ITCA has completed the registration on NITI-Aayog."
           </p>
           <Link to="/ngo" className="text-center">
-      <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white ">
+      <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-2 rounded-lg text-white ">
         <p className="">Read more</p>
         <span className="ml-1"><FaArrowRightLong /></span>
       </div>
@@ -253,8 +253,8 @@ const Home = () => {
       </div>
     
     </div>
-    <div className='bg-homeevent bg-cover bg-center h-72 flex lg:px-28 items-center ' data-aos="fade-down" style={{ height: '700px' }}>
-      <div className="">
+    <div className='bg-homeevent bg-cover bg-center h-[450px]  flex lg:px-28 items-center ' data-aos="fade-down" >
+      <div className="p-4">
         <h1 className='text-white py-2 text-6xl'>Events</h1>
         <p className='text-white text-xl'>Conferences, seminars, meetings with experts, online courses, hackathons, </p>
         <p className='text-white text-xl'> international student exchange programmes,  summer schools abroad and</p>
@@ -265,8 +265,8 @@ const Home = () => {
       </div>
     </div>
 
-    <div className="lg:flex justify-center gap-4 text-white " data-aos="fade-up">
-    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0   ${isOpen8 ? 'h-auto' : 'h-24'}`}>
+    <div className="lg:flex justify-center gap-4 text-white ">
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2  ${isOpen8 ? 'h-auto' : 'h-24'}`}>
       <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion8}>
       Congress
       </h1>
@@ -284,7 +284,7 @@ const Home = () => {
          </div>
       )}
     </div>
-    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0  ${isOpen9 ? 'h-auto' : 'h-24'}`}>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2  ${isOpen9 ? 'h-auto' : 'h-24'}`}>
       <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion9}>
       Webinars
       </h1>
@@ -302,7 +302,7 @@ const Home = () => {
        </div>
       )}
     </div>
-    <div className={`w-full lg:w-1/4 p-4 bg-about text-center    ${isOpen10 ? 'h-auto' : 'h-24'}`}>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center mb-2   ${isOpen10 ? 'h-auto' : 'h-24'}`}>
       <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion10}>
       Masterclass
       </h1>
@@ -312,7 +312,7 @@ const Home = () => {
         </p>
       )}
     </div>
-    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0  ${isOpen11 ? 'h-auto' : 'h-24'}`}>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen11 ? 'h-auto' : 'h-24'}`}>
       <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion11}>
       Past Events
       </h1>
@@ -335,22 +335,22 @@ const Home = () => {
   
   </div>
 
-  <div class='bg-homeprofession bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down" style={{ height: '700px' }}>
+  <div class='bg-homeprofession bg-cover bg-center h-[450px]  flex justify-center items-center' data-aos="fade-down" >
   <div class="text-center">
     <h1 class='text-white py-2 text-6xl'>Professional Development</h1>
   
   </div>
 </div>
 
-    <div className="lg:flex justify-center gap-4 text-white " data-aos="fade-up">
-    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0  ${isOpen12 ? 'h-auto' : 'h-24'}`}>
+    <div className="lg:flex justify-center gap-4 text-white " >
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen12 ? 'h-auto' : 'h-24'}`}>
       <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion12}>
       Incubation
       </h1>
       {isOpen12 && (
          <div>
          <p className="mt-2" data-aos="fade-down">
-           "ITCA has set up an incubation hub and facilitates start-up organizations and entrepreneurs to access financing options based on their requirements. "
+           "ITCA has set up an incubation hub and facilitates start-up organizations and entrepreneurs to access financing options based on their. "
          </p>
            <Link to="/incubation" className="text-center">
            <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
@@ -368,7 +368,7 @@ const Home = () => {
       {isOpen13 && (
        <div>
        <p className="mt-2" data-aos="fade-down">
-         "Mentoring Initiative is a member benefit for ITCA members seeking career guidance or advice from experienced professionals with diverse experience. "
+         "Mentoring Initiative is a member benefit for ITCA members seeking career guidance or advice from experienced professionals . "
        </p>
          <Link to="/educator" className="text-center">
          <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
@@ -387,7 +387,7 @@ const Home = () => {
       {isOpen14 && (
         <div>
         <p className="mt-2" data-aos="fade-down">
-          "ITCA has constituted an Advisory Board of globally renowned space scientists to guide the ambitious 75 Students’ Satellites initiative. This board comprises of:"
+          "ITCA has constituted an Advisory Board of globally renowned space scientists to guide the ambitious 75 Students’ Satellites initiative."
         </p>
           <Link to="/advisor" className="text-center">
           <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
@@ -406,7 +406,7 @@ const Home = () => {
       {isOpen15 && (
         <div>
         <p className="mt-2" data-aos="fade-down">
-          "Our members decipher industry trends and integrate the technological breakthroughs to develop mint-fresh innovations that form the basis of solutions. "
+          "Our members decipher industry trends and integrate the technological breakthroughs to develop mint-fresh innovations. "
         </p>
           <Link to="/leadership" className="text-center">
           <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
@@ -423,22 +423,22 @@ const Home = () => {
   </div>
 
 
-  <div class='bg-homemember bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down" style={{ height: '700px' }}>
+  <div class='bg-homemember bg-cover bg-center h-[450px]  flex justify-center items-center' data-aos="fade-down" >
   <div class="text-center">
     <h1 class='text-white py-2 text-6xl'>Membership</h1>
 
   </div>
 </div>
 
-    <div className="lg:flex justify-around gap-4 text-white " data-aos="fade-up">
-    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0  ${isOpen16 ? 'h-auto' : 'h-24'}`}>
+    <div className="lg:flex justify-around gap-4 text-white " >
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2  ${isOpen16 ? 'h-auto' : 'h-24'}`}>
       <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion16}>
       Individual Membership
       </h1>
       {isOpen16 && (
          <div>
          <p className="mt-2" data-aos="fade-down">
-           "Technology's pervasive presence across our globe underscores its vast diversity, embodied by our esteemed Fellows who represent a rich spectrum within science. "
+           "Technology's pervasive presence across our globe underscores its vast diversity, embodied by our esteemed Fellows who represent a rich spectrum within. "
          </p>
            <Link to="/individual" className="text-center">
            <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
@@ -473,15 +473,15 @@ const Home = () => {
   
   </div>
 
-  <div class='bg-homeforums bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down" style={{ height: '700px' }}>
+  <div class='bg-homeforums bg-cover bg-center h-[450px]  flex justify-center items-center' data-aos="fade-down" >
   <div class="text-center">
     <h1 class='text-white py-2 text-6xl'>Forums</h1>
 
   </div>
 </div>
 
-    <div className="lg:flex justify-center gap-4 text-white " data-aos="fade-up">
-    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0  ${isOpen18 ? 'h-auto' : 'h-24'}`}>
+    <div className="lg:flex justify-center gap-4 text-white " >
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen18 ? 'h-auto' : 'h-24'}`}>
       <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion18}>
     Space
       </h1>
@@ -512,7 +512,7 @@ const Home = () => {
        </div>
       )}
     </div>
-    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0  ${isOpen20 ? 'h-auto' : 'h-24'}`}>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen20 ? 'h-auto' : 'h-24'}`}>
       <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion20}>
       Industry 4.0
       </h1>
@@ -525,7 +525,7 @@ const Home = () => {
          </div>
       )}
     </div>
-    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0  ${isOpen21 ? 'h-auto' : 'h-24'}`}>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen21 ? 'h-auto' : 'h-24'}`}>
       <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion21}>
       System
       </h1>
@@ -538,7 +538,7 @@ const Home = () => {
          </div>
       )}
     </div>
-    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 ${isOpen22 ? 'h-auto' : 'h-24'}`}>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen22 ? 'h-auto' : 'h-24'}`}>
       <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion22}>
       Temple Engineering
       </h1>
@@ -564,15 +564,15 @@ const Home = () => {
 
 
 
-  <div class='bg-homepublication bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down" style={{ height: '700px' }}>
+  <div class='bg-homepublication bg-cover bg-center h-[450px]  flex justify-center items-center' data-aos="fade-down" >
   <div class="text-center">
     <h1 class='text-white py-2 text-6xl'>Publication</h1>
 
   </div>
 </div>
 
-    <div className="lg:flex justify-center gap-4 text-white " data-aos="fade-up">
-    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0  ${isOpen23 ? 'h-auto' : 'h-24'}`}>
+    <div className="lg:flex justify-center gap-4 text-white " >
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen23 ? 'h-auto' : 'h-24'}`}>
       <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion23}>
       Tips
       </h1>
@@ -585,7 +585,7 @@ const Home = () => {
          </div>
       )}
     </div>
-    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0  ${isOpen24 ? 'h-auto' : 'h-24'}`}>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0  mb-2 ${isOpen24 ? 'h-auto' : 'h-24'}`}>
       <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion24}>
       Update
       </h1>
@@ -599,7 +599,7 @@ const Home = () => {
       )}
     </div>
     
-    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0  ${isOpen25 ? 'h-auto' : 'h-24'}`}>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen25 ? 'h-auto' : 'h-24'}`}>
       <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion25}>
       Report
       </h1>
@@ -612,7 +612,7 @@ const Home = () => {
          </div>
       )}
     </div>
-    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0  ${isOpen26 ? 'h-auto' : 'h-24'}`}>
+    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2  ${isOpen26 ? 'h-auto' : 'h-24'}`}>
       <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion26}>
       News
       </h1>
