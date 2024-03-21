@@ -39,7 +39,7 @@ useEffect(() => {
 
   return (
     <>
-    <div className='bg-aboutus bg-cover bg-center h-72 flex lg:px-28 items-center ' data-aos="fade-down">
+    <div className='bg-aboutus bg-cover bg-center homebanners flex lg:px-28 items-center '  data-aos="fade-down">
       <div className="">
         <h1 className='text-white py-2 text-6xl'>Events</h1>
         <p className='text-white text-xl'>Conferences, seminars, meetings with experts, online courses, hackathons, </p>
@@ -51,14 +51,14 @@ useEffect(() => {
       </div>
     </div>
 
-    <div className="lg:flex justify-center gap-4 text-white mb-4" data-aos="fade-up">
+    <div className="lg:flex justify-center gap-2 text-white mb-4 bg-skyblue" >
     <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2  ${isOpen ? 'h-auto' : 'h-24'}`}>
       <h1 className="text-2xl cursor-pointer mt-2" onClick={toggleAccordion}>
       Congress
       </h1>
       {isOpen && (
          <div>
-         <p className="mt-2" data-aos="fade-down">
+         <p className="mt-2" >
            "Indian Technology Congress (ITC) is a flagship event of the Indian Technology Congress Association (ITCA), a dedicated Association for Technologists "
          </p>
            <Link to="/congress" className="text-center">
@@ -76,7 +76,7 @@ useEffect(() => {
       </h1>
       {isOpen1 && (
        <div>
-       <p className="mt-2" data-aos="fade-down">
+       <p className="mt-2" >
          "ITCA offers webinars and live seminars to apprise students, faculty and technology aficionados on aspects of CubeSat technology to assist students and faculty, "
        </p>
          <Link to="/webinar" className="text-center">
@@ -93,7 +93,7 @@ useEffect(() => {
       Masterclass
       </h1>
       {isOpen2 && (
-        <p className="mt-2" data-aos="fade-down">
+        <p className="mt-2" >
           "Coming Soon"
         </p>
       )}
@@ -104,7 +104,7 @@ useEffect(() => {
       </h1>
       {isOpen3 && (
         <div>
-        <p className="mt-2" data-aos="fade-down">
+        <p className="mt-2" >
           "ITC-2021, the 9th edition of Indian Technology Congress, was unique in that it facilitated exploring space technologies for sustainable development. "
         </p>
           <Link to="/pastevent" className="text-center">

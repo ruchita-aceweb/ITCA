@@ -60,7 +60,7 @@ const Aboutus = () => {
 
   return (
     <>
-     <div className='bg-homeabout bg-cover bg-center h-[400px]  flex lg:px-28 items-center ' data-aos="fade-down" >
+     <div className='bg-homeabout bg-cover bg-center homebanners  flex lg:px-28 items-center ' data-aos="fade-down" >
         <div className="p-4">
           <h1 className='text-white py-2 text-6xl'>About Us</h1>
           <p className='text-white text-xl'>Welcome to ITCA-we Encourage, Educate, Envision </p>
@@ -72,14 +72,15 @@ const Aboutus = () => {
         </div>
       </div>
   
-      <div className="lg:flex justify-center gap-4 text-white " data-aos="fade-up">
-      <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen ? 'h-auto' : 'h-24'}`}>
+      <div className="lg:flex justify-center gap-2 text-white bg-skyblue" >
+    
+      <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen ? 'h-[520px]' : 'h-24'}`}>
         <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion}>
-          Vision
+        Vision
         </h1>
         {isOpen && (
-          <p className="mt-2 " data-aos="fade-down">
-            "Empowering citizens with a technology-centric ethos, catalyzing profound societal and national advancement."
+          <p className="mt-2">
+         "Empowering citizens with a technology-centric ethos, catalyzing profound societal and national advancement."
           </p>
         )}
       </div>
@@ -88,7 +89,7 @@ const Aboutus = () => {
           Mission
         </h1>
         {isOpen1 && (
-          <p className="mt-2" data-aos="fade-down">
+          <p className="mt-2">
             "Through collaborative endeavors, we strive to empower the advancement of technology-centric initiatives, creating a dynamic societal landscape where every citizen embraces technology as a catalyst for positive change. In doing so, we aim to foster an ongoing journey of evolution towards collective well-being."
           </p>
         )}
@@ -98,7 +99,7 @@ const Aboutus = () => {
           Governance
         </h1>
         {isOpen2 && (
-          <p className="mt-2" data-aos="fade-down">
+          <p className="mt-2">
             "ITCA has renowned and senior leaders from multiple engineering disciplines with globally recognized contributions to industry, academia, and research organizations."
           </p>
         )}
@@ -109,7 +110,7 @@ const Aboutus = () => {
         </h1>
         {isOpen3 && (
           <div>
-          <p className="mt-2" data-aos="fade-down">
+          <p className="mt-2">
           "ITC over the last 18 years has attained international prominence."
           </p>
             <Link to="/partnership" className="text-center">
@@ -128,7 +129,7 @@ const Aboutus = () => {
         </h1>
         {isOpen4 && (
           <div>
-          <p className="mt-2" data-aos="fade-down">
+          <p className="mt-2">
             "ITCA has structured active and functional partnerships with global . "
           </p>
             <Link to="/partnership" className="text-center">
@@ -146,7 +147,7 @@ const Aboutus = () => {
         Future Directions
         </h1>
         {isOpen5 && (
-          <p className="mt-2" data-aos="fade-down">
+          <p className="mt-2">
             "Coming Soon"
           </p>
         )}
@@ -156,18 +157,18 @@ const Aboutus = () => {
         Affiliations
         </h1>
         {isOpen6 && (
-          <p className="mt-2" data-aos="fade-down">
+          <p className="mt-2">
             "Coming Soon"
           </p>
         )}
       </div>
-      <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2  ${isOpen7 ? 'h-auto' : 'h-24'}`}>
+      <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2  ${isOpen7 ? 'h-[520px' : 'h-24'}`}>
         <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion7}>
         Ngo Darpan
         </h1>
         {isOpen7 && (
           <div>
-          <p className="mt-2" data-aos="fade-down">
+          <p className="mt-2">
             "ITCA has completed the registration on NITI-Aayog."
           </p>
           <Link to="/ngo" className="text-center">
