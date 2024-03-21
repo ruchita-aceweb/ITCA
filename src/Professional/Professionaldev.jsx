@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 
+
 import "../Styles/font.css";
 import 'aos/dist/aos.css';
 import AOS from 'aos';
@@ -38,21 +39,21 @@ useEffect(() => {
 
   return (
 <>
-<div class='bg-dev bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down">
+<div class='bg-dev bg-cover bg-center homebanners flex justify-center items-center' data-aos="fade-down">
   <div class="text-center">
     <h1 class='text-white py-2 text-6xl'>Professional Development</h1>
     <p class='text-white text-xl'>Home/Professional Development</p>
   </div>
 </div>
 
-<div className="lg:flex justify-center gap-4 text-white " >
-    <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen ? 'h-auto' : 'h-24'}`}>
+<div className="lg:flex justify-center gap-2 text-white bg-skyblue" >
+    <div className={` w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen ? 'h-56' : 'h-24'}`}>
       <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion}>
       Incubation
       </h1>
       {isOpen && (
          <div>
-         <p className="mt-2" data-aos="fade-down">
+         <p className="mt-2" >
            "ITCA has set up an incubation hub and facilitates start-up organizations and entrepreneurs to access financing options based on their. "
          </p>
            <Link to="/incubation" className="text-center">
@@ -70,7 +71,7 @@ useEffect(() => {
       </h1>
       {isOpen1 && (
        <div>
-       <p className="mt-2" data-aos="fade-down">
+       <p className="mt-2" >
          "Mentoring Initiative is a member benefit for ITCA members seeking career guidance or advice from experienced professionals . "
        </p>
          <Link to="/educator" className="text-center">
@@ -89,7 +90,7 @@ useEffect(() => {
       </h1>
       {isOpen2 && (
         <div>
-        <p className="mt-2" data-aos="fade-down">
+        <p className="mt-2" >
           "ITCA has constituted an Advisory Board of globally renowned space scientists to guide the ambitious 75 Students’ Satellites initiative."
         </p>
           <Link to="/advisor" className="text-center">
@@ -108,7 +109,7 @@ useEffect(() => {
       </h1>
       {isOpen3 && (
         <div>
-        <p className="mt-2" data-aos="fade-down">
+        <p className="mt-2" >
           "Our members decipher industry trends and integrate the technological breakthroughs to develop mint-fresh innovations. "
         </p>
           <Link to="/leadership" className="text-center">

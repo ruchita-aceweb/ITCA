@@ -9,14 +9,14 @@ h1, h2, h3, h4, h5, h6 {
   }
   @media (min-width: 1023px) {
     .homebanners{
-      height: 450px;
+      height: 400px;
     }
   }
   
 
   @media (min-width: 1550px) {
     .homebanners {
-      height: 750px;
+      height: 730px;
     }
   }
   
