@@ -21,7 +21,7 @@ const Latestnews = () => {
       <div class="bg-aboutus bg-cover bg-center h-72 flex justify-center items-center" data-aos="fade-down">
         <div class="text-center">
           <h1 class="text-white py-2 text-6xl">Latest News</h1>
-          <p class="text-white text-xl">Home/Latest News</p>
+         
         </div>
       </div>
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6 lg:py-9  lg:px-40  px-4 py-6" data-aos="fade-up" >

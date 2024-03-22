@@ -9,7 +9,7 @@ const Agritech = () => {
   <div className='bg-aboutus bg-cover bg-center h-72 flex justify-center items-center ' data-aos="fade-down">
         <div className="text-center">
           <h1 className='text-white py-2 text-6xl'>Agri Tech</h1>
-          <p className='text-white text-xl'>Home/Agri Tech</p>
+      
         </div>
       </div>
     <div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-9 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark">

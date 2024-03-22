@@ -86,6 +86,10 @@ export const professiondata = [
 ]
 export const forumsdata = [
     {
+        title:'Our Forums',
+        link:'/ourforum'
+    },
+    {
         title:'Space',
         link:'/space'
     },
@@ -108,6 +112,10 @@ export const forumsdata = [
 ]
 export const publicationdata = [
     {
+        title:'Publication',
+        link:'/publication'
+    },
+    {
         title:'TIP',
         link:'/tips'
     },
@@ -125,7 +133,10 @@ export const publicationdata = [
     },
 ]
 export const memberdata =[
-   
+    {
+        title:' Our Membership',
+        link:'/membership'
+    },
     {
         title:'Individual Membership',
         link:'/individual'

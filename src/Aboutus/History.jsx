@@ -17,7 +17,7 @@ const History = () => {
    <div class='bg-history bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down">
   <div class="text-center">
     <h1 class='text-white py-2 text-6xl'>Heritage</h1>
-    <p class='text-white text-xl'>Home/Heritage</p>
+   
   </div>
 </div>
 <div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-9 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark">

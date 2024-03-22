@@ -16,7 +16,7 @@ const Sustainabledev = () => {
     <div class='bg-goal bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down">
   <div class="text-center">
     <h1 class='text-white py-2 text-6xl'>Sustainable Development Goals</h1>
-    <p class='text-white text-xl'>Home/Sustainable Development Goals</p>
+
   </div>
 </div>
 <div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-5 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark sm:px-7.5">

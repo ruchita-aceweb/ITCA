@@ -185,12 +185,14 @@ const Home = () => {
           <p className="mt-2" >
           "ITC over the last 18 years has attained international prominence."
           </p>
+          <div className="flex   justify-center">
             <Link to="/partnership" className="text-center">
-            <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-2 rounded-lg text-white ">
-              <p className="">Read more</p>
+            <div className="flex items-center justify-between  mt-4 bg-skyblue py-2 px-2 rounded-lg text-white ">
+              <button className="">Read more</button>
               <span className="ml-1"><FaArrowRightLong /></span>
             </div>
           </Link>
+          </div>
           </div>
         )}
        
@@ -204,12 +206,14 @@ const Home = () => {
           <p className="mt-2" >
             "ITCA has structured active and functional partnerships with global . "
           </p>
+          <div className="flex   justify-center">
             <Link to="/partnership" className="text-center">
             <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white ">
               <p className="">Read more</p>
               <span className="ml-1"><FaArrowRightLong /></span>
             </div>
           </Link>
+          </div>
           </div>
         )}
        
@@ -243,12 +247,14 @@ const Home = () => {
           <p className="mt-2" >
             "ITCA has completed the registration on NITI-Aayog."
           </p>
+          <div className="flex   justify-center">
           <Link to="/ngo" className="text-center">
       <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-2 rounded-lg text-white ">
         <p className="">Read more</p>
         <span className="ml-1"><FaArrowRightLong /></span>
       </div>
     </Link>
+    </div>
           </div>
         )}
       </div>
@@ -259,10 +265,13 @@ const Home = () => {
         <h1 className='text-white py-2 text-6xl'>Events</h1>
         <p className='text-white text-xl'>Conferences, seminars, meetings with experts, online courses, hackathons, </p>
         <p className='text-white text-xl'> international student exchange programmes,  summer schools abroad and</p>
+        
          <p className='text-white text-xl'> in India and meetings with ITCA leadership are among myriad events that are offered to members.</p>
+         <div className="flex   justify-center">
          <Link to='/eventinfo'>
  <button className="bg-skyblue py-2 px-4 rounded-lg text-white mt-4 ">Learn More</button>
  </Link>
+ </div>
       </div>
     </div>
 
@@ -276,12 +285,14 @@ const Home = () => {
          <p className="mt-2">
            "Indian Technology Congress (ITC) is a flagship event of the Indian Technology Congress Association (ITCA), a dedicated Association for Technologists "
          </p>
+         <div className="flex   justify-center">
            <Link to="/congress" className="text-center">
            <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
              <p className="">Read more</p>
              <span className="ml-1"><FaArrowRightLong /></span>
            </div>
          </Link>
+         </div>
          </div>
       )}
     </div>
@@ -294,12 +305,15 @@ const Home = () => {
        <p className="mt-2">
          "ITCA offers webinars and live seminars to apprise students, faculty and technology aficionados on aspects of CubeSat technology to assist students and faculty, "
        </p>
+       
+       <div className="flex   justify-center">
          <Link to="/webinar" className="text-center">
          <div className="flex mb-0 items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
            <p className="">Read more</p>
            <span className="ml-1"><FaArrowRightLong /></span>
          </div>
        </Link>
+       </div>
        </div>
       )}
     </div>
@@ -322,12 +336,14 @@ const Home = () => {
         <p className="mt-2">
           "ITC-2021, the 9th edition of Indian Technology Congress, was unique in that it facilitated exploring space technologies for sustainable development.  "
         </p>
+        <div className="flex   justify-center">
           <Link to="/pastevent" className="text-center">
           <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
             <p className="">Read more</p>
             <span className="ml-1"><FaArrowRightLong /></span>
           </div>
         </Link>
+        </div>
         </div>
         
       )}
@@ -353,12 +369,14 @@ const Home = () => {
          <p className="mt-2">
            "ITCA has set up an incubation hub and facilitates start-up organizations and entrepreneurs to access financing options based on their. "
          </p>
+         <div className="flex   justify-center">
            <Link to="/incubation" className="text-center">
            <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
              <p className="">Read more</p>
              <span className="ml-1"><FaArrowRightLong /></span>
            </div>
          </Link>
+         </div>
          </div>
       )}
     </div>
@@ -371,12 +389,14 @@ const Home = () => {
        <p className="mt-2">
          "Mentoring Initiative is a member benefit for ITCA members seeking career guidance or advice from experienced professionals . "
        </p>
+       <div className="flex   justify-center">
          <Link to="/educator" className="text-center">
          <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
            <p className="">Read more</p>
            <span className="ml-1"><FaArrowRightLong /></span>
          </div>
        </Link>
+       </div>
        </div>
       )}
     </div>
@@ -390,12 +410,14 @@ const Home = () => {
         <p className="mt-2">
           "ITCA has constituted an Advisory Board of globally renowned space scientists to guide the ambitious 75 Students’ Satellites initiative."
         </p>
+        <div className="flex   justify-center">
           <Link to="/advisor" className="text-center">
           <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
             <p className="">Read more</p>
             <span className="ml-1"><FaArrowRightLong /></span>
           </div>
         </Link>
+        </div>
         </div>
         
       )}
@@ -409,12 +431,14 @@ const Home = () => {
         <p className="mt-2">
           "Our members decipher industry trends and integrate the technological breakthroughs to develop mint-fresh innovations. "
         </p>
+        <div className="flex   justify-center">
           <Link to="/leadership" className="text-center">
           <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
             <p className="">Read more</p>
             <span className="ml-1"><FaArrowRightLong /></span>
           </div>
         </Link>
+        </div>
         </div>
         
       )}
@@ -441,12 +465,14 @@ const Home = () => {
          <p className="mt-2">
            "Technology's pervasive presence across our globe underscores its vast diversity, embodied by our esteemed Fellows who represent a rich spectrum within. "
          </p>
+         <div className="flex   justify-center">
            <Link to="/individual" className="text-center">
            <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
              <p className="">Read more</p>
              <span className="ml-1"><FaArrowRightLong /></span>
            </div>
          </Link>
+         </div>
          </div>
       )}
     </div>
@@ -459,12 +485,14 @@ const Home = () => {
        <p className="mt-2">
          "The Institutional Members category welcomes associations, public, and private institutions engaged in fields aligned with the objectives of the ITCA."
        </p>
+       <div className="flex   justify-center">
          <Link to="/institutional" className="text-center">
          <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
            <p className="">Read more</p>
            <span className="ml-1"><FaArrowRightLong /></span>
          </div>
        </Link>
+       </div>
        </div>
       )}
     </div>
@@ -504,12 +532,14 @@ const Home = () => {
        <p className="mt-2">
          "AgriTech refers to the emerging opportunities for the Technology, products& services that supports Agricultural."
        </p>
+       <div className="flex   justify-center">
          <Link to="/educator" className="text-center">
          <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
            <p className="">Read more</p>
            <span className="ml-1"><FaArrowRightLong /></span>
          </div>
        </Link>
+       </div>
        </div>
       )}
     </div>
@@ -548,12 +578,14 @@ const Home = () => {
         <p className="mt-2">
           "Whispers in Heritage Decoding the Symbolic Temple Engineering Ancient innovators defied gravity and time, crafting ."
         </p>
+        <div className="flex   justify-center">
           <Link to="/advisor" className="text-center">
           <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
             <p className="">Read more</p>
             <span className="ml-1"><FaArrowRightLong /></span>
           </div>
         </Link>
+        </div>
         </div>
         
       )}

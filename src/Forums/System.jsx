@@ -7,7 +7,7 @@ const System = () => {
     <div class='bg-strategy bg-cover bg-center h-72 flex justify-center items-center' data-aos="fade-down">
     <div class="text-center">
       <h1 class='text-white py-2 text-6xl'>System</h1>
-      <p class='text-white text-xl'>Home/System</p>
+      
     </div>
   </div>
 

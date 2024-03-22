@@ -10,7 +10,7 @@ const Advisor = () => {
     <div class="text-center">
       <h1 class='text-white py-2 lg:text-6xl text-3xl'>Advisor</h1>
  
-      <p class='text-white  text-xl'>Home/Advisor</p>
+      
     </div>
   </div>
  <div className="container m-auto leading-8 mb-4 rounded-sm border mt-14 border-stroke bg-white px-5 py-3 shadow-2xl dark:border-strokedark dark:bg-boxdark sm:px-7.5">

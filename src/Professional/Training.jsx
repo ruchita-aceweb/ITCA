@@ -17,7 +17,6 @@ const Training = () => {
    <div class="text-center">
      <h1 class='text-white py-2 text-6xl'>Training</h1>
     
-     <p class='text-white text-xl'>Home/Training</p>
    </div>
  </div>
 
