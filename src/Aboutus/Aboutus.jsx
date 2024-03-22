@@ -74,7 +74,7 @@ const Aboutus = () => {
   
       <div className="lg:flex justify-center gap-2 text-white bg-skyblue" >
     
-      <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen ? 'h-[520px]' : 'h-24'}`}>
+      <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen ? 'lg:h-[520px]' : 'h-24'}`}>
         <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion}>
         Vision
         </h1>
@@ -113,12 +113,14 @@ const Aboutus = () => {
           <p className="mt-2">
           "ITC over the last 18 years has attained international prominence."
           </p>
+          <div className="flex   justify-center">
             <Link to="/partnership" className="text-center">
             <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-2 rounded-lg text-white ">
               <p className="">Read more</p>
               <span className="ml-1"><FaArrowRightLong /></span>
             </div>
           </Link>
+          </div>
           </div>
         )}
        
@@ -132,12 +134,14 @@ const Aboutus = () => {
           <p className="mt-2">
             "ITCA has structured active and functional partnerships with global . "
           </p>
+          <div className="flex   justify-center">
             <Link to="/partnership" className="text-center">
             <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white ">
               <p className="">Read more</p>
               <span className="ml-1"><FaArrowRightLong /></span>
             </div>
           </Link>
+          </div>
           </div>
         )}
        
@@ -171,12 +175,14 @@ const Aboutus = () => {
           <p className="mt-2">
             "ITCA has completed the registration on NITI-Aayog."
           </p>
+          <div className="flex   justify-center">
           <Link to="/ngo" className="text-center">
       <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-2 rounded-lg text-white ">
         <p className="">Read more</p>
         <span className="ml-1"><FaArrowRightLong /></span>
       </div>
     </Link>
+    </div>
           </div>
         )}
       </div>

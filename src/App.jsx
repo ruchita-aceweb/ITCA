@@ -48,6 +48,9 @@ import Proceedings from "./Professional/Proceedings.jsx";
 import Mentoring from "./Professional/Mentoring.jsx";
 import Aboutinfo from "./Aboutus/Aboutinfo.jsx";
 import Eventinfo from "./Events/Eventinfo.jsx";
+import Ourmember from "./Membership/Ourmember.jsx";
+import Ourforums from "./Forums/Ourforums.jsx";
+import Ourpublication from "./Publication/Ourpublication.jsx";
 
 
 
@@ -103,12 +106,15 @@ const App = () => {
         <Route path="/associate" element={<Associate/>}/>
         <Route path="/specialist" element={<Specialist/>}/>  
         <Route path="/boards" element={<Boards/>}/> 
+        <Route path="/membership" element={<Ourmember/>}/>
         <Route path="/individual" element={<Individual/>}/>
         <Route path="/institutional" element={<Instituational/>}/>
         <Route path="/ngo" element={<Ngodarpan/>}/>
         <Route path="/latest" element={<Latestnews/>}/>
         <Route path="/media" element={<Media/>}/>
+        <Route path="/ourforum" element={<Ourforums/>}/>
         <Route path="/space" element={<Space/>}/>
+        <Route path="/publication" element={<Ourpublication/>}/>
         <Route path="/tips" element={<Tips/>}/>
         <Route path="/update" element={<Update/>}/>
         <Route path="/report" element={<Report/>}/>

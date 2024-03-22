@@ -42,7 +42,7 @@ useEffect(() => {
 <div class='bg-dev bg-cover bg-center homebanners flex justify-center items-center' data-aos="fade-down">
   <div class="text-center">
     <h1 class='text-white py-2 text-6xl'>Professional Development</h1>
-    <p class='text-white text-xl'>Home/Professional Development</p>
+ 
   </div>
 </div>
 
@@ -56,12 +56,14 @@ useEffect(() => {
          <p className="mt-2" >
            "ITCA has set up an incubation hub and facilitates start-up organizations and entrepreneurs to access financing options based on their. "
          </p>
+         <div className="flex   justify-center">
            <Link to="/incubation" className="text-center">
            <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
              <p className="">Read more</p>
              <span className="ml-1"><FaArrowRightLong /></span>
            </div>
          </Link>
+         </div>
          </div>
       )}
     </div>
@@ -74,12 +76,14 @@ useEffect(() => {
        <p className="mt-2" >
          "Mentoring Initiative is a member benefit for ITCA members seeking career guidance or advice from experienced professionals . "
        </p>
+       <div className="flex   justify-center">
          <Link to="/educator" className="text-center">
          <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
            <p className="">Read more</p>
            <span className="ml-1"><FaArrowRightLong /></span>
          </div>
        </Link>
+       </div>
        </div>
       )}
     </div>
@@ -93,12 +97,14 @@ useEffect(() => {
         <p className="mt-2" >
           "ITCA has constituted an Advisory Board of globally renowned space scientists to guide the ambitious 75 Students’ Satellites initiative."
         </p>
+        <div className="flex   justify-center">
           <Link to="/advisor" className="text-center">
           <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
             <p className="">Read more</p>
             <span className="ml-1"><FaArrowRightLong /></span>
           </div>
         </Link>
+        </div>
         </div>
         
       )}
@@ -112,12 +118,14 @@ useEffect(() => {
         <p className="mt-2" >
           "Our members decipher industry trends and integrate the technological breakthroughs to develop mint-fresh innovations. "
         </p>
+        <div className="flex   justify-center">
           <Link to="/leadership" className="text-center">
           <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
             <p className="">Read more</p>
             <span className="ml-1"><FaArrowRightLong /></span>
           </div>
         </Link>
+        </div>
         </div>
         
       )}

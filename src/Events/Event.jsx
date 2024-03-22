@@ -39,7 +39,7 @@ useEffect(() => {
 
   return (
     <>
-    <div className='bg-aboutus bg-cover bg-center homebanners flex lg:px-28 items-center '  data-aos="fade-down">
+    <div className='bg-aboutus bg-cover bg-center homebanners flex px-6 lg:px-28 items-center '  data-aos="fade-down">
       <div className="">
         <h1 className='text-white py-2 text-6xl'>Events</h1>
         <p className='text-white text-xl'>Conferences, seminars, meetings with experts, online courses, hackathons, </p>
@@ -61,12 +61,14 @@ useEffect(() => {
          <p className="mt-2" >
            "Indian Technology Congress (ITC) is a flagship event of the Indian Technology Congress Association (ITCA), a dedicated Association for Technologists "
          </p>
+         <div className="flex   justify-center">
            <Link to="/congress" className="text-center">
            <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
              <p className="">Read more</p>
              <span className="ml-1"><FaArrowRightLong /></span>
            </div>
          </Link>
+         </div>
          </div>
       )}
     </div>
@@ -79,12 +81,14 @@ useEffect(() => {
        <p className="mt-2" >
          "ITCA offers webinars and live seminars to apprise students, faculty and technology aficionados on aspects of CubeSat technology to assist students and faculty, "
        </p>
+       <div className="flex   justify-center">
          <Link to="/webinar" className="text-center">
          <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
            <p className="">Read more</p>
            <span className="ml-1"><FaArrowRightLong /></span>
          </div>
        </Link>
+       </div>
        </div>
       )}
     </div>
@@ -107,12 +111,14 @@ useEffect(() => {
         <p className="mt-2" >
           "ITC-2021, the 9th edition of Indian Technology Congress, was unique in that it facilitated exploring space technologies for sustainable development. "
         </p>
+        <div className="flex   justify-center">
           <Link to="/pastevent" className="text-center">
           <div className="flex items-center justify-between mt-4 bg-skyblue py-2 px-4 rounded-lg text-white  ">
             <p className="">Read more</p>
             <span className="ml-1"><FaArrowRightLong /></span>
           </div>
         </Link>
+        </div>
         </div>
         
       )}
