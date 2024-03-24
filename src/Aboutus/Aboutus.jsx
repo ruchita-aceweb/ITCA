@@ -84,7 +84,7 @@ const Aboutus = () => {
           </p>
         )}
       </div>
-      <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen1 ? 'h-auto' : 'h-24'}`}>
+      <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen1 ? 'lg:h-[520px]': 'h-24'}`}>
         <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion1}>
           Mission
         </h1>
@@ -94,7 +94,7 @@ const Aboutus = () => {
           </p>
         )}
       </div>
-      <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen2 ? 'h-auto' : 'h-24'}`}>
+      <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2 ${isOpen2 ? 'lg:h-[520px]': 'h-24'}`}>
         <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion2}>
           Governance
         </h1>
@@ -104,7 +104,7 @@ const Aboutus = () => {
           </p>
         )}
       </div>
-      <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2  ${isOpen3 ? 'h-auto' : 'h-24'}`}>
+      <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2  ${isOpen3 ? 'lg:h-[520px]': 'h-24'}`}>
         <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion3}>
       Heritage
         </h1>
@@ -125,7 +125,7 @@ const Aboutus = () => {
         )}
        
       </div>
-      <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2  ${isOpen4 ? 'h-auto' : 'h-24'}`}>
+      <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2  ${isOpen4 ? 'lg:h-[520px]': 'h-24'}`}>
         <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion4}>
         Partnerships
         </h1>
@@ -146,7 +146,7 @@ const Aboutus = () => {
         )}
        
       </div>
-      <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2  ${isOpen5 ? 'h-auto' : 'h-24'}`}>
+      <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2  ${isOpen5 ? 'lg:h-[520px]': 'h-24'}`}>
         <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion5}>
         Future Directions
         </h1>
@@ -156,7 +156,7 @@ const Aboutus = () => {
           </p>
         )}
       </div>
-      <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2  ${isOpen6 ? 'h-auto' : 'h-24'}`}>
+      <div className={`w-full lg:w-1/4 p-4 bg-about text-center  lg:m-0 mb-2  ${isOpen6 ? 'lg:h-[520px]': 'h-24'}`}>
         <h1 className="text-xl cursor-pointer mt-2" onClick={toggleAccordion6}>
         Affiliations
         </h1>
